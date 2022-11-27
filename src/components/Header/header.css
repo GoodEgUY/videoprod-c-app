@@ -3,17 +3,18 @@
     width: 1170px;
     display: flex;
     max-width: 100%;
+    color: var(--s-color);
     justify-content: space-between;
 }
 .logo {
-    color: #E6E6E6;
+    
     font-family: Noah-700;
     font-size: 36px;
 }
 .headerNav {
     display: flex;
     align-items: center;
-    color: #E6E6E6;
+    
     font-family: Noah-700;
     font-size: 28px ;
 }
