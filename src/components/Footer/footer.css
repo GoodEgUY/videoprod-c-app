@@ -1,0 +1,27 @@
+.footer {
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+}
+.footerText {
+    color: #E6E6E6;
+    font-family: Noah-700;
+    font-size: 36px;
+}
+.footerNav {
+    display: flex;
+    align-items: center;
+    color: #E6E6E6;
+    font-family: Noah-700;
+    font-size: 28px ;
+}
+.footerNavItem {
+cursor: pointer;
+    margin-right: 30px;
+    transition: all .2s ease-in;
+}
+.footerNavItem:hover {
+    color: rgb(107, 107, 107);
+}

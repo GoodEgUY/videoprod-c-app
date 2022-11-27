@@ -1,0 +1,13 @@
+.content {
+    overflow: auto;
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.screenContent {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}

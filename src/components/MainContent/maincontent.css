@@ -1,0 +1,53 @@
+div {
+    background-color: var(--mbg-color);
+}
+p {
+    font-family: Noah-700;
+}
+.mainContent {
+    width: 1170px;
+    padding-top: 150px;
+    flex-direction: column;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.introText {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.introParag {
+    color: var(--s-color);
+    font-size: 60px;
+}
+.block2 {
+    border-bottom: 1px solid white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%; 
+}
+.block2title {
+    text-align: center;
+    color: var(--s-color);
+    font-size: 60px;
+}
+.block2content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--s-color);
+    font-size: 60px;
+}
+.teamItem {
+    width: 250px;
+    height: 450px;
+    background-color: var(--s-color);
+    border-radius: 20px;
+}
