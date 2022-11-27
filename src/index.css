@@ -23,8 +23,8 @@
 }
 
 * {
-  --mbg-color : #252428;
-  --s-color : #E6E6E6;
+  --mbg-color : #E6E6E6;
+  --s-color : #252428;
   box-sizing: border-box;
 }
 
