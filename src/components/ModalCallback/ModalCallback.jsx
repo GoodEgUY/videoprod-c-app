@@ -116,7 +116,7 @@ const ModalCallback = (props) => {
               </form>
               <span className="policyTitle">
                 Нажимая кнопку «Отправить», Вы соглашаетесь с<br />
-                <a href="#">политикой конфиденциальности</a>
+                <p>политикой конфиденциальности</p>
               </span>
             </div>
           </div>
