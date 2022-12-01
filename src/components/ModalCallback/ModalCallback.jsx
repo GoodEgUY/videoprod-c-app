@@ -18,7 +18,7 @@ const ModalCallback = (props) => {
   const sendAlert = (e) => {
     e.preventDefault();
 
-    let message = `<b>🤩Заявка на обратный звонок🤩</b>\n`;
+    let message = `<b>🤩Якась крута фраза😂😅</b>\n`;
     message += `<b>Им'я кліента:</b> ${clientName}\n`;
     message += `<b>Компанія:</b> ${clientCompany}\n`;
     message += `<b>Мета:</b> ${clientGoal}\n`;
