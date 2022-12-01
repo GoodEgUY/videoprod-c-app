@@ -1,9 +1,17 @@
 import React from "react";
 import "./maincontent.css";
+import ModalCallback from "../ModalCallback/ModalCallback";
+import { useState } from "react";
 
 const MainContent = () => {
+  const [modalOpened, setModalOpened] = useState(false);
   return (
+    <>
+    {modalOpened ?  (
+        <ModalCallback closeModal={() => setModalOpened(false)} />
+      ) : null}
     <div className="mainContent">
+
       <div className="introText">
         <p className="introParag">Блок 1</p>
       </div>
@@ -30,7 +38,16 @@ const MainContent = () => {
           <div className="teamItem"></div>
         </div>
       </div>
+      <button className="openModal callback_button" onClick={() => {
+              setModalOpened(true);
+            }}
+          >
+            Зв'язатися
+
+      </button>
+     
     </div>
+    </>
   );
 };
 export default MainContent;

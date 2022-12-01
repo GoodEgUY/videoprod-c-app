@@ -14,7 +14,7 @@
 .footerNav {
     display: flex;
     align-items: center;
-    color: var(--s-color);
+    
     font-family: Noah-700;
     font-size: 28px ;
 }

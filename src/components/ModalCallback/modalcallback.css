@@ -1,0 +1,225 @@
+.modalCallbackBody {
+    position: relative;
+    background-color:#3d405b;
+    padding: 35px;
+    border-radius: 10px;
+    animation: fade .5s running;
+    
+    
+}
+
+
+.callbackFormContent {
+    width: 362px;
+    color: var(--mbg-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.callbackFormContent h4 {
+    font-family: Noah-700;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+.callbackFormContent p {
+    font-family: Noah-400;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+.callbackModalBtn {
+    font-family: Noah-700;
+    cursor: pointer;
+    border: 1px solid #81b29a;
+    color: var(--mbg-color);
+    width: 100%;
+    height: 75px;
+    background-color: #81b29a;
+    
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.callbackModalBtn:hover {
+    background-color: #3d405b;
+    color: #81b29a;
+}
+
+.policyTitle {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.policyTitle a {
+    text-decoration: none;
+    color: #81b29a;
+}
+
+.policyTitle a:hover {
+    text-decoration: underline;
+}
+.successAlert {
+    width: 414px;
+    text-align: left;
+    font-family: Noah-700;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    margin-right: 35px;
+}
+.areaText {
+    width: 280px;
+    resize: none;
+}
+@keyframes fade {
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@media (max-device-width: 550px) { 
+    .modalWrapper {
+        padding: 0 16px;
+    }
+    .modalCallbackBody {
+        padding: 22px;
+    }
+    .callbackFormContent {
+        width: 100%;
+    }
+    .callbackFormContent h4 {
+        letter-spacing: 1px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .callbackFormContent p {
+        line-height: 24px;
+        font-size: 16px;
+        letter-spacing: .8px;
+    }
+    .callbackModalBtn {
+        height: 56px;
+    }
+}.callbackBtn {
+    cursor: pointer;
+    margin-top: 48px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 280px;
+    height: 75px;
+    background-color: #282FD2;
+    border: 1px solid #282FD2;
+    transition: all .2s ease-in-out;  
+    border-radius: 8px;  
+}
+.callbackBtn:hover {
+    color: #282FD2;
+    background-color: #EEF1FC ;
+}
+
+.modalWrapper {
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   z-index: 5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    animation: fade .4s running;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.modalBody {
+    background-color: var(--mbg-color);
+    color: white;
+    padding: 35px 80px 35px 35px;
+    position: relative;
+    border-radius: 4px;
+    width: 529px;
+    height: 240px;
+    
+    
+}
+.modalBody::backdrop {
+    filter: blur(5px);
+}
+.closeModal {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.titleModal {
+    margin: 0;
+    font-size: 30px;
+    font-family: Noah-700;
+}
+
+.modalNav {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.icoModal {
+    margin-right: 10px;
+}
+.navLinkModal {
+    
+    margin-right: 25px;
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+}
+.navLinkModal:hover {
+    color:#FBB83E;
+}
+
+.navLinkModal::before {
+    align-items: center;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+    bottom: -15px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #FBB83E;
+    transform: scale(0);
+    transition: transform .4s ease-in;
+}
+.navLinkModal:hover::before {
+    transform: scale(1);
+}
+.navLinkModal::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -17px;
+    left: 40%;
+    width: 10px;
+    height: 10px;
+    background-color: #FBB83E;
+    transform: scale(0);
+    transition: transform .2s ease-in;
+}
+
+.navLinkModal:hover::after {
+    transform: scale(1);
+}
