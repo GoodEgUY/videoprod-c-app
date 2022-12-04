@@ -5,7 +5,7 @@ p {
 .mainContent {
     background-color: var(--mbg-color);
     width: 1170px;
-    padding-top: 150px;
+  
     flex-direction: column;
     padding-bottom: 150px;
     display: flex;
@@ -15,8 +15,10 @@ p {
 }
 .introText {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100vh;
     border-bottom: 1px solid white;
 }
 .introParag {
@@ -49,4 +51,63 @@ p {
     height: 450px;
     background-color: var(--s-color);
     border-radius: 20px;
+}
+.contentNavTabs {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.aboutDashboardNav {
+    display: flex;
+    flex-direction: row;
+}
+.dashboardRow {
+    display: flex;
+    flex-direction: row;
+}
+.tab-link {
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+   background-color: aliceblue;
+    transition: all .2s ease-in;
+    
+}
+
+.tab-link p {
+    font-size: 24px;
+    margin-top: 0;
+    font-family: Noah-400;
+    text-decoration: none;
+    margin-bottom: 0;
+    
+}
+
+.tab-link:hover {
+    border-color: #b4ee14;
+    
+    
+}
+
+.tab-link-active {
+    font-weight: normal!important;
+    background-color: #b4ee14;
+    border-color: #b4ee14;
+    
+    
+    font-family: Noah-400;
+
+}
+.aboutDashboardScreen {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.aboutDashboard {
+    width: 1170px;
 }
