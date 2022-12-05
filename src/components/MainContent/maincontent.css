@@ -4,8 +4,7 @@ p {
 }
 .mainContent {
     background-color: var(--mbg-color);
-    width: 1170px;
-  
+    overflow-x: hidden;
     flex-direction: column;
     padding-bottom: 150px;
     display: flex;
@@ -13,26 +12,43 @@ p {
     justify-content: center;
     
 }
+.intro {
+
+    width: 100vw;
+    height: 101vh;
+    background-image: url(../../../public/images/test.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .introText {
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100vh;
-    border-bottom: 1px solid white;
+    
 }
+
 .introParag {
+    
+    animation: fade 1.3s ease-in-out forwards;
     color: var(--s-color);
     font-size: 60px;
 }
 .block2 {
+    overflow: hidden;
+    width: 1170px;
     border-bottom: 1px solid white;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 800px;
-    width: 100%; 
+     
 }
 .block2title {
     text-align: center;
@@ -67,7 +83,7 @@ p {
 }
 .tab-link {
     margin-right: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--s-color);
     border-radius: 15px;
     height: 30px;
     padding: 0 20px;

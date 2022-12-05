@@ -12,8 +12,10 @@ const MainContent = () => {
         <ModalCallback closeModal={() => setModalOpened(false)} />
       ) : null}
       <div className="mainContent">
+        <div className="intro">
         <div className="introText">
           <p className="introParag">Якась дужеееее крута фраза</p>
+        </div>
         </div>
         <div className="block2">
           <p className="block2title">Блок 2(Кейси)</p>
