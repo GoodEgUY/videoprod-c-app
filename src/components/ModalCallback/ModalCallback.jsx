@@ -84,7 +84,7 @@ const ModalCallback = (props) => {
                 <input
                   type="name"
                   name="name"
-                  placeholder="Компания"
+                  placeholder="Компанія"
                   value={clientCompany}
                   onChange={(event) => setClientCompany(event.target.value)}
                 />

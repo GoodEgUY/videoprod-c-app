@@ -4,13 +4,12 @@ import "./footer.css"
 const Footer = () => {
     return (
         <footer className="footer">
-            <p className="footerText">Блок контакти</p>
+            
             <div className="footerNav">
-                <p className="footerNavItem">телега</p>
-                <p className="footerNavItem">что то </p>
-                <p className="footerNavItem">что то</p>
-                <p className="footerNavItem">почта</p>
-                <p></p>
+                <p>Напишіть нам про свій проект:</p>
+                <div className="postButton">test@test.test</div>
+                <p>Або подзвоніть:</p>
+                <p className="footerText">+380000000000</p>
             </div>
         </footer>
     );

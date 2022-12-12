@@ -62,7 +62,16 @@ p {
     color: var(--s-color);
     font-size: 60px;
 }
+.blockTeam {
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
 .teamItem {
+    margin: 0;
     width: 250px;
     height: 450px;
     background-color: var(--s-color);
@@ -90,7 +99,7 @@ p {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-   background-color: aliceblue;
+   background-color: var(--mbg-color);
     transition: all .2s ease-in;
     
 }
@@ -105,15 +114,15 @@ p {
 }
 
 .tab-link:hover {
-    border-color: #b4ee14;
+    border-color: #bddf60;
     
     
 }
 
 .tab-link-active {
     font-weight: normal!important;
-    background-color: #b4ee14;
-    border-color: #b4ee14;
+    background-color: #bddf60;
+    border-color: #bddf60;
     
     
     font-family: Noah-400;
@@ -126,4 +135,26 @@ p {
 }
 .aboutDashboard {
     width: 1170px;
+}
+.swiper-wrapper {
+    height: 500px;
+    width: 1170px;
+    
+   
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-wrapper  {
+    padding-bottom: 30px;
+    width: 1170px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #a3ff00!important;
+}
+
+
+.block3 {
+    width: 80%;
 }

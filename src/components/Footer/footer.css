@@ -1,27 +1,43 @@
 .footer {
+    background-color: var(--mbg-color);
+    z-index: 4;
     color: var(--s-color);
     margin: 0 auto;
-    width: 1170px;
+ width: 100vw;
+    height: 100vh;
     display: flex;
-    max-width: 100%;
-    justify-content: space-around;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: Noah-400;
+    font-size: 50px;
 }
 .footerText {
-    color: var(--s-color);
-    font-family: Noah-700;
-    font-size: 36px;
+    font-family: Noah-400;  
+    margin-top: 0px;
 }
+
 .footerNav {
     display: flex;
     align-items: center;
-    
-    font-family: Noah-700;
-    font-size: 28px ;
+    flex-direction: column;
+    font-family: Noah-400;
+    font-size: 50px ;
 }
-.footerNavItem {
+.postButton{
+    font-size: 90px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 150px;
+    border-radius: 60px;
+    background-color: #a3ff00 ;
 cursor: pointer;
-    margin-right: 30px;
     transition: all .2s ease-in;
+}
+.postButton:hover {
+    transform: scale(1.05);
 }
 .footerNavItem:hover {
     color: rgb(107, 107, 107);
