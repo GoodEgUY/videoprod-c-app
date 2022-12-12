@@ -3,7 +3,7 @@ import "./maincontent.css";
 
 import {Swiper, SwiperSlide} from 'swiper/react';
 
-import { Navigation, Pagination, EffectFade, Scrollbar } from 'swiper';
+import { Navigation, Pagination, EffectFade} from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
