@@ -1,14 +1,13 @@
 import React from "react";
 import "./maincontent.css";
 
-import {Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Navigation, Pagination, EffectFade} from 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-
+import { Navigation, Pagination, EffectFade } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 import ModalCallback from "../ModalCallback/ModalCallback";
 import { Tabs, TabContent, TabLink } from "react-tabs-redux";
@@ -28,7 +27,7 @@ const MainContent = () => {
           </div>
         </div>
         <div className="block2">
-          <p className="block2title">Блок 2(Кейси)</p>
+          
           <Tabs>
             <div className="aboutDashboard">
               <div className="aboutDashboardNav">
@@ -56,7 +55,41 @@ const MainContent = () => {
                 {/* 1 UI TAB */}
                 <TabContent for="about">
                   <div className="block2content">
-                    <p>Контент 1</p>
+                    <div className="contentDashboard">
+                      <div className="heightItemBox">
+                        <div className="contentItem">
+                          <p className="contentItemName">Test</p>
+                          <p className="contentItemTitle">Якийсь опис</p>
+                        </div>
+                        <div className="itemColumn">
+                          <div className="contentItem">
+                            <p className="contentItemName">Test</p>
+                            <p className="contentItemTitle">Якийсь опис</p>
+                          </div>
+                          <div className="contentItem">
+                            <p className="contentItemName">Test</p>
+                            <p className="contentItemTitle">Якийсь опис</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="heightItemBox">
+                        
+                        <div className="itemColumn">
+                          <div className="contentItem">
+                            <p className="contentItemName">Test</p>
+                            <p className="contentItemTitle">Якийсь опис</p>
+                          </div>
+                          <div className="contentItem">
+                            <p className="contentItemName">Test</p>
+                            <p className="contentItemTitle">Якийсь опис</p>
+                          </div>
+                        </div>
+                        <div className="contentItem">
+                          <p className="contentItemName">Test</p>
+                          <p className="contentItemTitle">Якийсь опис</p>
+                        </div>
+                      </div>
+                      </div>
                   </div>
                 </TabContent>
                 {/* 1 UI TAB */}
@@ -64,7 +97,32 @@ const MainContent = () => {
                 {/* 2 UI TAB */}
                 <TabContent for="problem">
                   <div className="block2content">
-                    <p>Контент 2</p>
+                    <div className="contentDashboard">
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 2 UI TAB */}
@@ -72,7 +130,32 @@ const MainContent = () => {
                 {/* 3 UI TAB */}
                 <TabContent for="result">
                   <div className="block2content">
-                    <p>Контент 3</p>
+                    <div className="contentDashboard">
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 3 UI TAB */}
@@ -80,7 +163,32 @@ const MainContent = () => {
                 {/* 4 UI TAB */}
                 <TabContent for="goals">
                   <div className="block2content">
-                    <p>Контент 4</p>
+                    <div className="contentDashboard">
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 4 UI TAB */}
@@ -88,7 +196,32 @@ const MainContent = () => {
                 {/* 5 UI TAB */}
                 <TabContent for="time">
                   <div className="block2content">
-                    <p>Контент 5</p>
+                    <div className="contentDashboard">
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 5 UI TAB */}
@@ -96,7 +229,32 @@ const MainContent = () => {
                 {/* 6 UI TAB */}
                 <TabContent for="stages">
                   <div className="block2content">
-                    <p>Контент 6</p>
+                    <div className="contentDashboard">
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                      <div className="contentItem">
+                        <p className="contentItemName">Test</p>
+                        <p className="contentItemTitle">Test title</p>
+                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 6 UI TAB */}
@@ -111,45 +269,34 @@ const MainContent = () => {
             <p>Контент 2</p>
           </div>
         </div>
-        
-          
-          <div className="blockTeam"><div className="block3">
-            <Swiper modules={[Navigation, Pagination, EffectFade]}  spaceBetween={10}
-      slidesPerView={3}
-      navigation
-      
-      pagination={{ clickable: true }}
-      
-      loop>
+
+        <div className="blockTeam">
+          <div className="block3">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade]}
+              spaceBetween={10}
+              slidesPerView={3}
+              navigation
+              pagination={{ clickable: true }}
+              loop
+            >
               <SwiperSlide>
-                <div className="teamItem">
-                  
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="teamItem">
-                  
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="teamItem">
-                  
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="teamItem">
-                 
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="teamItem">
-                  
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="teamItem">
-                  
-                </div>
+                <div className="teamItem"></div>
               </SwiperSlide>
             </Swiper>
           </div>

@@ -40,14 +40,15 @@ p {
     font-size: 60px;
 }
 .block2 {
+    padding-top: 100px;
     overflow: hidden;
-    width: 1170px;
+    width: 1400px;
     border-bottom: 1px solid white;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    
      
 }
 .block2title {
@@ -58,7 +59,7 @@ p {
 .block2content {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     color: var(--s-color);
     font-size: 60px;
 }
@@ -134,7 +135,10 @@ p {
     display: flex;
 }
 .aboutDashboard {
-    width: 1170px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+
 }
 .swiper-wrapper {
     height: 500px;
@@ -157,4 +161,69 @@ p {
 
 .block3 {
     width: 80%;
+}
+.contentDashboard {
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
+    
+}
+.contentItem {
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin-bottom: 15px;
+    width: 585px;
+    height: 275px;
+    background-color: grey;
+    transition: all 0.2s ease-in;
+   
+}
+.contentItem:hover {
+    transform: scale(1.02);
+}
+.heightItemBox>.contentItem {
+    
+   height: 565px;
+   
+}
+.contentItem:hover .contentItemName {
+    opacity: 1;
+    
+}
+.contentItem:hover .contentItemTitle {
+    opacity: 1;
+    animation: fade 0.2s linear;
+}
+.contentItemName {
+    opacity: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    transition: all 0.2s ease-in;
+    
+}
+.contentItemTitle {
+    margin: 0;
+    opacity: 0;
+    font-size: 30px;
+    font-family: Noah-400;
+}
+
+.heightItemBox {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+}
+.itemColumn {
+    flex-direction: column;
+
 }
