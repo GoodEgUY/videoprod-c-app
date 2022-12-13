@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: var(--mbg-color);
     overflow-x: hidden ;
+    overflow-y: auto;
 
 
 }

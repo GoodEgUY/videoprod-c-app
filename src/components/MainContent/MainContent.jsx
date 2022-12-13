@@ -11,16 +11,30 @@ import "swiper/css/scrollbar";
 
 import ModalCallback from "../ModalCallback/ModalCallback";
 import { Tabs, TabContent, TabLink } from "react-tabs-redux";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+
+const checkScroll = () => {
+  if(this.scrollY > 100) {
+    console.log("test");
+  } else {
+    console.log('dfdfdf');
+  }
+} 
 
 const MainContent = () => {
+
+
+
+
+
   const [modalOpened, setModalOpened] = useState(false);
   return (
     <>
       {modalOpened ? (
         <ModalCallback closeModal={() => setModalOpened(false)} />
       ) : null}
-      <div className="mainContent">
+      <div className="mainContent" onScroll={checkScroll}>
         <div className="intro">
           <div className="introText">
             <p className="introParag">Якась дужеееее крута фраза</p>
