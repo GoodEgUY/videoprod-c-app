@@ -11,58 +11,37 @@ import "swiper/css/scrollbar";
 
 import ModalCallback from "../ModalCallback/ModalCallback";
 import { Tabs, TabContent, TabLink } from "react-tabs-redux";
-import { useState, useEffect } from "react";
-
-
-const checkScroll = () => {
-  if(this.scrollY > 100) {
-    console.log("test");
-  } else {
-    console.log('dfdfdf');
-  }
-} 
+import { useState } from "react";
 
 const MainContent = () => {
-
-
-
-
-
   const [modalOpened, setModalOpened] = useState(false);
   return (
     <>
       {modalOpened ? (
         <ModalCallback closeModal={() => setModalOpened(false)} />
       ) : null}
-      <div className="mainContent" onScroll={checkScroll}>
+      <div className="mainContent">
         <div className="intro">
           <div className="introText">
             <p className="introParag">Якась дужеееее крута фраза</p>
           </div>
         </div>
         <div className="block2">
-          
           <Tabs>
             <div className="aboutDashboard">
               <div className="aboutDashboardNav">
                 <TabLink to="about">
-                  <p>Таби</p>
+                  <p>Іміджеві</p>
                 </TabLink>
                 <TabLink to="problem">
-                  <p>Таби</p>
+                  <p>Reels</p>
                 </TabLink>
                 <TabLink to="result">
-                  <p>ще таб</p>
+                  <p>Контент</p>
                 </TabLink>
 
                 <TabLink to="goals">
-                  <p> і ще таби</p>
-                </TabLink>
-                <TabLink to="time">
-                  <p>і ще табиии</p>
-                </TabLink>
-                <TabLink to="stages">
-                  <p>останній таб</p>
+                  <p>Щось інше</p>
                 </TabLink>
               </div>
               <div className="aboutDashboardScreen">
@@ -87,7 +66,6 @@ const MainContent = () => {
                         </div>
                       </div>
                       <div className="heightItemBox">
-                        
                         <div className="itemColumn">
                           <div className="contentItem">
                             <p className="contentItemName">Test</p>
@@ -103,7 +81,7 @@ const MainContent = () => {
                           <p className="contentItemTitle">Якийсь опис</p>
                         </div>
                       </div>
-                      </div>
+                    </div>
                   </div>
                 </TabContent>
                 {/* 1 UI TAB */}

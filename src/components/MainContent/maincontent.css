@@ -5,6 +5,7 @@ p {
 .mainContent {
     background-color: var(--mbg-color);
     overflow-x: hidden;
+    
     flex-direction: column;
     padding-bottom: 150px;
     display: flex;
@@ -40,7 +41,7 @@ p {
     font-size: 60px;
 }
 .block2 {
-    padding-top: 100px;
+    padding-top: 200px;
     overflow: hidden;
     width: 1400px;
     border-bottom: 1px solid white;
@@ -84,6 +85,8 @@ p {
     justify-content: left;
 }
 .aboutDashboardNav {
+    
+    
     display: flex;
     flex-direction: row;
 }
@@ -94,9 +97,9 @@ p {
 .tab-link {
     margin-right: 20px;
     border: 2px solid var(--s-color);
-    border-radius: 15px;
-    height: 30px;
-    padding: 0 20px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 5px 30px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -106,7 +109,7 @@ p {
 }
 
 .tab-link p {
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 0;
     font-family: Noah-400;
     text-decoration: none;
@@ -116,6 +119,11 @@ p {
 
 .tab-link:hover {
     border-color: #bddf60;
+    transform: scale(1.1);  
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    
     
     
 }
@@ -135,7 +143,8 @@ p {
     display: flex;
 }
 .aboutDashboard {
-    width: 1400px;
+    
+    width: 1300px;
     display: flex;
     flex-direction: column;
 

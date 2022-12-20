@@ -1,10 +1,19 @@
 import React, {Fragment} from "react";
 import './App.css';
-import { useEffect } from "react";
+
 import Media from "react-media";
 import Main from "./components/Main/Main";
+import { useEffect, useState } from "react";
 function App() {
  
+
+
+
+
+
+
+
+
   return (
     <>
     <div className="mainScreen">

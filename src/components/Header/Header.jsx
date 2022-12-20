@@ -6,19 +6,23 @@ import { useEffect, useState } from "react";
 
 
 const Header = () => {
-    const [back, setBack] = useState(false);
-    const screenBody = document.getElementsByClassName('mainScreen')
-    useEffect(() => {
-        window.addEventListener('scroll' ,() => {
-            if(screenBody.scrollY > 200) {
-                console.log("test");
+    const [back,setBack] = useState(false);
+    const scrollCheck = () => {
+        if(window.scrollY > window.innerHeight) {
                 setBack(true);
+                
             } else {
-                console.log("test34");
                 setBack(false);
-            }
-        })
+                
+            } 
+            
+    }
+
+    useEffect (() => {
+        window.addEventListener('scroll', scrollCheck)
     },[])
+  
+    
     return (
         <header className={back ? "header back" : "header"}>
             <p className="logo">Якесь лого!</p>
@@ -32,4 +36,5 @@ const Header = () => {
         </header>
     );
 } 
+
 export default Header;
