@@ -3,7 +3,7 @@ import './App.css';
 
 import Media from "react-media";
 import Main from "./components/Main/Main";
-import { useEffect, useState } from "react";
+
 function App() {
  
 
