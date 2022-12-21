@@ -183,6 +183,8 @@ p {
     
 }
 .contentItem {
+    position: relative;
+    object-fit: cover;
     display: flex;
     justify-content:flex-end;
     flex-direction: column;
@@ -212,6 +214,8 @@ p {
     animation: fade 0.2s linear;
 }
 .contentItemName {
+    color: var(--mbg-color);
+    z-index: 1;
     opacity: 0;
     margin-bottom: 0;
     font-size: 30px;
@@ -219,12 +223,16 @@ p {
     
 }
 .contentItemTitle {
+    color: var(--mbg-color);
+    z-index: 1;
     margin: 0;
     opacity: 0;
     font-size: 30px;
     font-family: Noah-400;
 }
-
+.coverImg {
+    object-fit: cover;
+}
 .heightItemBox {
     width: 100%;
     justify-content: space-around;
@@ -235,4 +243,16 @@ p {
 .itemColumn {
     flex-direction: column;
 
+}
+.contentImg img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.contentImg img {
+    object-fit: cover;
 }

@@ -51,34 +51,117 @@ const MainContent = () => {
                     <div className="contentDashboard">
                       <div className="heightItemBox">
                         <div className="contentItem">
-                          <p className="contentItemName">Test</p>
-                          <p className="contentItemTitle">Якийсь опис</p>
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/borg.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                          <p className="contentItemName">BORG.</p>
+                          <p className="contentItemTitle">
+                            Борг-борг-борг-борг.
+                          </p>
                         </div>
                         <div className="itemColumn">
                           <div className="contentItem">
-                            <p className="contentItemName">Test</p>
-                            <p className="contentItemTitle">Якийсь опис</p>
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/gt.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">GREEN TRAVEL.</p>
+                            <p className="contentItemTitle">Клік і готово!</p>
                           </div>
                           <div className="contentItem">
-                            <p className="contentItemName">Test</p>
-                            <p className="contentItemTitle">Якийсь опис</p>
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/oko.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">ОКО</p>
+                            <p className="contentItemTitle">Час бачити більше.</p>
                           </div>
                         </div>
                       </div>
                       <div className="heightItemBox">
                         <div className="itemColumn">
                           <div className="contentItem">
-                            <p className="contentItemName">Test</p>
-                            <p className="contentItemTitle">Якийсь опис</p>
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/easy.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">EASY-PEASY</p>
+                            <p className="contentItemTitle">Це тупо просто.</p>
                           </div>
                           <div className="contentItem">
-                            <p className="contentItemName">Test</p>
-                            <p className="contentItemTitle">Якийсь опис</p>
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/yaposhka.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">YAPOSHKA 3.0.</p>
+                            <p className="contentItemTitle">Кухня більше не потрібна.</p>
                           </div>
                         </div>
                         <div className="contentItem">
-                          <p className="contentItemName">Test</p>
-                          <p className="contentItemTitle">Якийсь опис</p>
+                        <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/yaposhka4.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                          <p className="contentItemName">YAPOSHKA 4.0.</p>
+                          <p className="contentItemTitle">Смачна причина повертатись.</p>
+                        </div>
+                      </div>
+                      <div className="heightItemBox">
+                        <div className="contentItem">
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/lgbt.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                          <p className="contentItemName">LGBT.</p>
+                          <p className="contentItemTitle">
+                          Єдині як ніколи.
+                          </p>
+                        </div>
+                        <div className="itemColumn">
+                          <div className="contentItem">
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/macpaw.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">MACPAW.</p>
+                            <p className="contentItemTitle">#DiakuYOU.</p>
+                          </div>
+                          <div className="contentItem">
+                          <div className="contentImg">
+                            <img
+                              src="./images/cases/imige/farmer.png"
+                              className="coverImg"
+                              alt=""
+                            />
+                          </div>
+                            <p className="contentItemName">FARMERHOOD.</p>
+                            <p className="contentItemTitle">Від фермерів фермерам.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
