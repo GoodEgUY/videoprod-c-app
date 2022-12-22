@@ -1,0 +1,27 @@
+.intro {
+
+    width: 100vw;
+    height: 101vh;
+    background-image: url(../../../public/images/test.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.introText {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.introParag {
+    
+    animation: fade 1.3s ease-in-out forwards;
+    color: var(--s-color);
+    font-size: 60px;
+}

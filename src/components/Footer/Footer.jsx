@@ -1,17 +1,15 @@
 import React from "react";
-import "./footer.css"
+import "./footer.css";
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            
-            <div className="footerNav">
-                <p>Напишіть нам про свій проект:</p>
-                <div className="postButton">test@test.test</div>
-                <p>Або подзвоніть:</p>
-                <p className="footerText">+380000000000</p>
-            </div>
-        </footer>
-    );
-} 
+  return (
+    <footer className="footer">
+      <div className="socialNets">
+        <a href="https://www.google.com/" className="socialNavItem">Instagram</a>
+        <a href="https://www.google.com/" className="socialNavItem">Facebook</a>
+        <a href="https://www.google.com/" className="socialNavItem">Behance</a>
+      </div>
+    </footer>
+  );
+};
 export default Footer;

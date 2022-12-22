@@ -1,0 +1,85 @@
+.caseItem {
+    position: relative;
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin-bottom: 15px;
+    width: 585px;
+    height: 275px;
+    background-color: grey;
+    transition: all 0.2s ease-in;
+
+}
+
+.caseItem:hover {
+    transform: scale(1.02);
+}
+
+.heightItemBox>.caseItem {
+
+    height: 565px;
+
+}
+
+.caseItem:hover .caseItemName {
+    opacity: 1;
+
+}
+
+.caseItem:hover .caseItemTitle {
+    opacity: 1;
+    animation: fade 0.2s linear;
+}
+
+.caseItemName {
+    color: var(--mbg-color);
+    z-index: 1;
+    opacity: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    transition: all 0.2s ease-in;
+
+}
+
+.caseItemTitle {
+    color: var(--mbg-color);
+    z-index: 1;
+    margin: 0;
+    opacity: 0;
+    font-size: 30px;
+    font-family: Noah-400;
+}
+
+.coverImg {
+    object-fit: cover;
+}
+
+.heightItemBox {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itemColumn {
+    flex-direction: column;
+
+}
+
+.caseImage img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caseImage img {
+    object-fit: cover;
+}
