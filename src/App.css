@@ -1,7 +1,7 @@
 .mainScreen {
     width: 100vw;
     height: 100vh;
-    background-color: var(--mbg-color);
+    
     
    
 
@@ -21,12 +21,12 @@
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: var(--s-color);
-    background-color:#a3ff00 ;
-    background: linear-gradient(90deg, rgba(#a3ff00) 0%, rgba(#68056c) 100%);
+    color: #3c3c3c;
+    background-color:#bddf60;
+    
     border: none;
     
-    
+    z-index: 3;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -35,7 +35,7 @@
     }
   
   .callback_button:hover, .order__button:focus {
-    color: #313133;
+    color: var(--s-color);
     transform: translateY(-6px);
   }
   .callback_button:hover::before, .order__button:focus::before {
@@ -47,7 +47,7 @@
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 6px solid #a3ff00;
+    border: 6px solid #bddf60 ;
     position: absolute;
     z-index: -1;
     top: 50%;

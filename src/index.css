@@ -18,14 +18,14 @@
 
 ::-webkit-scrollbar-thumb {
   
-  background-color: rgba(202, 224, 8, 0.829) ;
+  background-color: var(--third) ;
   border-radius: 10px;
 }
 
 * {
   --mbg-color : #f5f7fd;
   --s-color : #252428;
-  --third : #bddf60; 
+  --third : #bddf60;
   box-sizing: border-box;
 }
 

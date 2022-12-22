@@ -10,81 +10,94 @@
     justify-content: space-around;
     transition: all 0.2s linear;
 }
+
 .logo {
     cursor: pointer;
     animation: fade 0.4s ease-in-out forwards;
     font-family: Noah-700;
     font-size: 36px;
+    
     transition: all .2s ease-in;
 }
+
 .logo:hover {
     transform: scale(1.2);
 }
+
 .headerNav {
-    
+
     display: flex;
     align-items: center;
-    
-    font-family: Noah-700;
-    font-size: 28px ;
+
+    font-family: Noah-400;
+    font-size: 28px;
 }
+
 .headerNav>p:nth-child(1) {
-    
+
     animation: fade 0.2s ease-in-out running;
 }
+
 .headerNav>p:nth-child(2) {
-    
+
     animation: fade 0.4s ease-in-out running;
 }
+
 .headerNav>p:nth-child(3) {
-    
+
     animation: fade 0.6s ease-in-out running;
 }
+
 .headerNav>p:nth-child(4) {
-    
+
     animation: fade 0.8s ease-in-out running;
 }
+
 .headerNavItem {
     margin-right: 20px;
     border: 1px solid var(--s-color);
     border-radius: 20px;
     height: 40px;
     padding: 0 30px;
-    
+    font-family: Noah-400;
     display: flex;
     align-items: center;
-   background-color: rgba(236, 255, 253, 0.089);
+    background-color: rgba(236, 255, 253, 0.089);
     transition: all .2s ease-in;
-cursor: pointer;
+    cursor: pointer;
     margin-right: 30px;
     transition: all .2s ease-in;
 }
+
 .headerNavItem:hover {
-    transform: scale(1.1);
+    
+    border-color: var(--third);
     
     -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
+
 .back {
     background-color: var(--mbg-color);
 
 }
+
 @keyframes fade {
-    0%{
+    0% {
         transform: translateY(-60px);
         opacity: 0;
     }
+
     50% {
         opacity: 0.3;
         transform: translateY(10px);
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-@keyframes header {
-    
-}
+@keyframes header {}
