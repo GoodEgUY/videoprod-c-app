@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 const Header = () => {
     const [back,setBack] = useState(false);
     const scrollCheck = () => {
-        if(window.scrollY > window.innerHeight) {
+        if(window.scrollY > window.innerHeight-150) {
                 setBack(true);
                 
             } else {
@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <header className={back ? "header back" : "header"}>
             <p className="logo">Якесь лого!</p>
-            <div className="headerNav">
+            <div className={back ? "headerNav navRight" : "headerNav"}>
                 <p className="headerNavItem">роботи</p>
                 <p className="headerNavItem">контакти</p>
                 <p className="headerNavItem">команда</p>
