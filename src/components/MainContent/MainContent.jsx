@@ -1,69 +1,53 @@
 import React from "react";
 import { useState } from "react";
 import "./maincontent.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectFade } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+
 import ModalCallback from "../ModalCallback/ModalCallback";
 import IntroPage from "../IntroPage/IntroPage";
-import CasesPage from "../CasesPage/CasesPage";
+import mainCases from "../../assests/casesBase/mainCases.json";
 import ContactsPage from "../ContactsPage/ContactsPage";
+import CaseCard from "../CasesPage/CaseCard/CaseCard";
+import Services from "../Services/Services";
+import CompanySwiper from "../CompanySwiper/CompanySwiper";
 
 const MainContent = () => {
   const [modalOpened, setModalOpened] = useState(false);
   return (
     <>
-    {/* Модальне вікно форми */}
+      {/* Модальне вікно форми */}
       {modalOpened ? (
         <ModalCallback closeModal={() => setModalOpened(false)} />
       ) : null}
       <div className="mainContent">
         {/* Блок инт */}
         <IntroPage />
+        <div className="textAfterIntro">
+          <p>
+            Під «основним» блоком зробимо текстик невеличкий. Його надішлемо
+            трішки пізніше. Але блок під нього можна вже зробити, щоб ми
+            розуміли, як воно виглядає.
+          </p>
+        </div>
         {/* Блок кейсів */}
-        <CasesPage />
+        <div className="aboutDashboardScreen">
+        <div className="caseCategoryPage">
+          <div className="casePage">
+            {mainCases.map((obj) => (
+              <CaseCard
+                key={obj.id}
+                name={obj.name}
+                title={obj.title}
+                image={obj.image}
+              />
+            ))}
+          </div>
+        </div>
+        </div>
+        <CompanySwiper/>
         {/* Блок послуги */}
-        <div className="block2">
-          <p className="block2title">Блок 3(Послуги)</p>
-          <div className="block2content">
-           
-          </div>
-        </div>
+        <Services/>
         {/* Блок команда */}
-        <div className="blockTeam">
-          <div className="block3">
-            <Swiper
-              modules={[Navigation, Pagination, EffectFade]}
-              spaceBetween={10}
-              slidesPerView={3}
-              navigation
-              pagination={{ clickable: true }}
-              loop
-            >
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="teamItem"></div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
+
         {/* Блок контакти */}
         <ContactsPage />
         {/* Кнопка зворотнього зв'язку */}
@@ -73,7 +57,7 @@ const MainContent = () => {
             setModalOpened(true);
           }}
         >
-          Зв'язатися
+          Тикай
         </button>
       </div>
     </>

@@ -28,7 +28,10 @@
   --third : #bddf60;
   box-sizing: border-box;
 }
-
+a:-webkit-any-link {
+  
+  text-decoration:none;
+}
 body {
   overflow-y: auto;
   overflow-x: hidden;

@@ -100,7 +100,7 @@
 }
 
 .caseImage img {
-    filter: blur(7px);
+    
     object-fit: cover;
     position: absolute;
     top: 0;

@@ -2,7 +2,7 @@
 
     width: 100vw;
     height: 101vh;
-    background-image: url(../../../public/images/test.png) ;
+    /* background-image: url(../../../public/images/test.png) ; */
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -24,4 +24,33 @@
     animation: fade 1.3s ease-in-out forwards;
     color: var(--s-color);
     font-size: 60px;
+}
+.introSlide {
+    object-fit: cover;
+    height: 100vh;
+width: 100vw;
+}
+.swiper
+.introSlide img {
+    object-fit: cover;
+    object-position: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.swiper-pagination {
+    transform: translateY(-40px);
+}
+.swiper-pagination-bullet {
+    width: 20px!important;
+    height: 20px!important;
+    border-radius: 0!important;
+}
+.swiper-pagination-bullet-active {
+    background-color: tomato!important;
 }

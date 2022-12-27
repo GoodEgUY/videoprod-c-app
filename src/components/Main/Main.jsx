@@ -4,6 +4,7 @@ import "./main.css";
 import MainContent from "../MainContent/MainContent";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import CasesPage from "../CasesPage/CasesPage";
 
 
 // 1 stage pages
@@ -24,7 +25,7 @@ const Main = () => {
           
           <Routes>
             <Route path="/" element={<MainContent />} />
-            
+            <Route path="/works" element={<CasesPage />} />
           </Routes>
         </div>
       </div>

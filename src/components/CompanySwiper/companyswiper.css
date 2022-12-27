@@ -1,0 +1,18 @@
+.companySwiperText {
+    color: var(--s-color);
+}
+.company {
+  width: 100%; 
+}
+.swiper-wrapper {
+    width: 900px;
+}
+.companySwiper {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    width: 1000px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
