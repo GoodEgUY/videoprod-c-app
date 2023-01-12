@@ -22,7 +22,7 @@ const CompanySwiper = () => {
         {brends.map((obj) => (
           <SwiperSlide>
             <div className="companySwiperText">
-              <img className="brendImage" src={obj.image}></img>
+              <img alt="brend logo" className="brendImage" src={obj.image}></img>
             </div>
           </SwiperSlide>
         ))}
