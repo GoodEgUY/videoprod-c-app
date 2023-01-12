@@ -1,12 +1,13 @@
 .companySwiperText {
     color: var(--s-color);
+    width: 90px;
+    height: 40px;
+    object-fit: cover;
 }
 .company {
   width: 100%; 
 }
-.swiper-wrapper {
-    width: 900px;
-}
+
 .companySwiper {
     display: flex;
     justify-content: center;

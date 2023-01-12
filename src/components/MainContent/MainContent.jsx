@@ -9,6 +9,7 @@ import ContactsPage from "../ContactsPage/ContactsPage";
 import CaseCard from "../CasesPage/CaseCard/CaseCard";
 import Services from "../Services/Services";
 import CompanySwiper from "../CompanySwiper/CompanySwiper";
+import Team from "../Team/Team";
 
 const MainContent = () => {
   const [modalOpened, setModalOpened] = useState(false);
@@ -47,7 +48,7 @@ const MainContent = () => {
         {/* Блок послуги */}
         <Services/>
         {/* Блок команда */}
-
+              <Team/>
         {/* Блок контакти */}
         <ContactsPage />
         {/* Кнопка зворотнього зв'язку */}

@@ -25,7 +25,7 @@ const IntroPage = () => {
           clickable: true,
         }}
         
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination ]}
         className="mySwiper"
       >
         <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/gif.gif" alt="" /></div></SwiperSlide>

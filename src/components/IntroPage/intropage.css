@@ -1,5 +1,7 @@
 .intro {
-
+    display: flex;
+    
+    position: relative;
     width: 100vw;
     height: 101vh;
     /* background-image: url(../../../public/images/test.png) ; */
@@ -9,6 +11,9 @@
 }
 
 .introText {
+    z-index: 2;
+    position: absolute;
+    top: 0;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
