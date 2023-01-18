@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import brends from "../../assests/casesBase/brends/brends.json"
+import brends from "../../assests/config.routes/brends/brends.json"
 
 const CompanySwiper = () => {
   return (

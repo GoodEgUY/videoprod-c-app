@@ -1,10 +1,10 @@
 import React from "react"
 import "./casespage.css"
 import { Tabs, TabContent, TabLink } from "react-tabs-redux";
-import fashion from "../../assests/casesBase/fashion.json";
-import reels from "../../assests/casesBase/reels.json";
-import content from "../../assests/casesBase/content.json";
-import other from "../../assests/casesBase/other.json";
+import fashion from "../../assests/config.routes/casesBase/fashion.json";
+import reels from "../../assests/config.routes/casesBase/reels.json";
+import content from "../../assests/config.routes/casesBase/content.json";
+import other from "../../assests/config.routes/casesBase/other.json";
 
 import CaseCard from "./CaseCard/CaseCard";
 
@@ -39,7 +39,7 @@ const CasesPage = () => {
                     <div className="casePage">
                     {
                         fashion.map((obj) => (
-                           <CaseCard key={obj.id} name={obj.name} title={obj.title} image={obj.image}/> 
+                           <CaseCard id={obj.id} name={obj.name} title={obj.title} image={obj.image} /> 
                         ))
                       }
                     </div>

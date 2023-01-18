@@ -4,7 +4,7 @@ import "./maincontent.css";
 
 import ModalCallback from "../ModalCallback/ModalCallback";
 import IntroPage from "../IntroPage/IntroPage";
-import mainCases from "../../assests/casesBase/mainCases.json";
+import mainCases from "../../assests/config.routes/casesBase/mainCases.json";
 import ContactsPage from "../ContactsPage/ContactsPage";
 import CaseCard from "../CasesPage/CaseCard/CaseCard";
 import Services from "../Services/Services";

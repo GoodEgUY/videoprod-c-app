@@ -1,0 +1,71 @@
+[
+  {
+    
+    "id": "0",
+    "name": "BORG",
+    "title": "Борг-борг-борг-борг.",
+    "image": "./images/cases/fashion/borg.png"
+  },
+  {
+    
+    "id": "1",
+    "name": "ОКО.",
+    "title": "Час бачити більше.",
+    "image": "./images/cases/fashion/oko.png"
+  },
+  {
+    
+    "id": "2",
+    "name": "GREEN TRAVEL.",
+    "title": "Клік і готово!",
+    "image": "./images/cases/fashion/gt.png"
+  },
+  {
+    "id": "3",
+    "name": "EASY-PEASY.",
+    "title": "Це тупо просто.",
+    "image": "./images/cases/fashion/easy.png"
+  },
+  {
+    "id": "4",
+    "name": "YAPOSHKA 3.0.",
+    "title": "Кухня більше не потрібна.",
+    "image": "./images/cases/fashion/yaposhka.png"
+  },
+  {
+    "id": "5",
+    "name": "YAPOSHKA 4.0.",
+    "title": "Смачна причина повертатись.",
+    "image": "./images/cases/fashion/yaposhka4.png"
+  },
+  {
+    "id": "6",
+    "name": "LGBT.",
+    "title": "Єдині як ніколи.",
+    "image": "./images/cases/fashion/lgbt.png"
+  },
+  {
+    "id": "7",
+    "name": "MACPAW",
+    "title": "#DiakuYOU.",
+    "image": "./images/cases/fashion/macpaw.png"
+  },
+  {
+    "id": "8",
+    "name": "FARMERHOOD.",
+    "title": "Від фермерів фермерам.",
+    "image": "./images/cases/fashion/farmer.png"
+  },
+  {
+    "id": "9",
+    "name": "Getify. Pasūti, panem, apēd",
+    "title": "(Замовив, забрав, з‘їв)",
+    "image": "./images/cases/fashion/getify.png"
+  },
+  {
+    "id": "10",
+    "name": "ШВЕЙКИН.",
+    "title": "Обери саме твою!",
+    "image": "./images/cases/fashion/farmer.png"
+  } 
+]
