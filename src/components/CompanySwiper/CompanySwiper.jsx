@@ -14,15 +14,17 @@ const CompanySwiper = () => {
       <Swiper
         modules={[Navigation]}
         spaceBetween={3}
-        slidesPerView={6}
+        slidesPerView={7}
         navigation
         className="company"
         loop={"true"}
       >
         {brends.map((obj) => (
           <SwiperSlide>
+            <div className="slideWrapper">
             <div className="companySwiperText">
               <img alt="brend logo" className="brendImage" src={obj.image}></img>
+            </div>
             </div>
           </SwiperSlide>
         ))}

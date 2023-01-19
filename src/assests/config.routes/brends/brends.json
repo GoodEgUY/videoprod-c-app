@@ -1,99 +1,99 @@
 [
     {
       "id" : "0",
-      "image": "./images/brends/brend (1).png"
+      "image": "./images/brends/brendLogo (1).png"
     },
     {
-        "id" : "0",
-        "image": "./images/brends/brend (2).png"
+        "id" : "1",
+        "image": "./images/brends/brendLogo (2).png"
+      },
+      {
+        "id" : "2",
+        "image": "./images/brends/brendLogo (3).png"
+      },
+      {
+        "id" : "3",
+        "image": "./images/brends/brendLogo (4).png"
+      },
+      {
+        "id" : "4",
+        "image": "./images/brends/brendLogo (5).png"
+      },
+      {
+        "id" : "5",
+        "image": "./images/brends/brendLogo (6).png"
+      },
+      {
+        "id" : "6",
+        "image": "./images/brends/brendLogo (7).png"
+      },
+      {
+        "id" : "7",
+        "image": "./images/brends/brendLogo (8).png"
+      },
+      {
+        "id" : "8",
+        "image": "./images/brends/brendLogo (9).png"
+      },
+      {
+        "id" : "9",
+        "image": "./images/brends/brendLogo (10).png"
+      },
+      {
+        "id" : "10",
+        "image": "./images/brends/brendLogo (11).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (3).png"
+        "image": "./images/brends/brendLogo (12).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (4).png"
+        "image": "./images/brends/brendLogo (13).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (5).png"
+        "image": "./images/brends/brendLogo (14).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (6).png"
+        "image": "./images/brends/brendLogo (15).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (7).png"
+        "image": "./images/brends/brendLogo (16).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (8).png"
+        "image": "./images/brends/brendLogo (17).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (9).png"
+        "image": "./images/brends/brendLogo (18).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (10).png"
+        "image": "./images/brends/brendLogo (19).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (11).png"
+        "image": "./images/brends/brendLogo (20).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (12).png"
+        "image": "./images/brends/brendLogo (21).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (13).png"
+        "image": "./images/brends/brendLogo (22).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (14).png"
+        "image": "./images/brends/brendLogo (23).png"
       },
       {
         "id" : "0",
-        "image": "./images/brends/brend (15).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (16).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (17).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (18).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (19).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (20).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (21).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (22).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (23).png"
-      },
-      {
-        "id" : "0",
-        "image": "./images/brends/brend (24).png"
+        "image": "./images/brends/brendLogo (24).png"
       }
     
   ]
