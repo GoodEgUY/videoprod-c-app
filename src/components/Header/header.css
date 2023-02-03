@@ -27,7 +27,7 @@
 
 .headerNav {
     text-decoration: none;
-    animation: TrainReverse .5s forwards;
+    
     display: flex;
     align-items: center;
 
@@ -87,11 +87,7 @@
 
 }
 
-.navRight {
-    animation: Train .6s forwards;
 
-
-}
 
 @keyframes fade {
     0% {

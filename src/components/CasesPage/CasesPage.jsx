@@ -9,12 +9,15 @@ import other from "../../assests/config.routes/casesBase/other.json";
 import CaseCard from "./CaseCard/CaseCard";
 
 const CasesPage = () => {
-
+  const scrollToTop = () => {
+    window.scrollTo(0,0)
+    console.log("Loads")
+  }
 
     
     return (
 
-<div className="cases">
+<div className="cases" onLoad={scrollToTop}>
           <Tabs>
             <div className="aboutDashboard">
               <div className="aboutDashboardNav">
@@ -39,7 +42,7 @@ const CasesPage = () => {
                     <div className="casePage">
                     {
                         fashion.map((obj) => (
-                           <CaseCard id={obj.id} name={obj.name} title={obj.title} image={obj.image} urlName={obj.urlName} /> 
+                           <CaseCard id={obj.id} name={obj.name} title={obj.title} image={obj.image} urlName={obj.urlName} scrollToTop={scrollToTop}/> 
                         ))
                       }
                     </div>

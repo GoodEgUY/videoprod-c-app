@@ -10,17 +10,19 @@ const CasePage = () => {
   const { urlName } = useParams();
 
   const caseInfo = caserouter.find((project) => project.urlName === urlName);
-
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
-      <div className="projectContent">
+      <div className="projectContent" onLoad={scrollToTop}>
         <div className="projectIntro">
           <img className="introImage" src={caseInfo.img1} alt="" />
           <div className="projectIntroText">
             <p>{caseInfo.name}</p>
             <div className="introCross">
-            <p>деталі</p>
-            <img src="/images/arrow.png" alt="" />
+              <p>деталі</p>
+              <img src="/images/arrow.png" alt="" />
             </div>
           </div>
         </div>
@@ -28,8 +30,14 @@ const CasePage = () => {
           <p>{caseInfo.title}</p>
           <p>{caseInfo.text}</p>
         </div>
-
-        
+        <div className="projectImages">
+          <img src={caseInfo.img2} alt="" />
+          <img src={caseInfo.img3} alt="" />
+        </div>
+        <p className="projectText">{caseInfo.text1}</p>
+        <div className="projectBackstageVideo">
+        <iframe width="730" height="415" src="https://www.youtube.com/embed/nPhGvW5td9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" allowfullscreen></iframe>
+        </div>
       </div>
     </>
   );
