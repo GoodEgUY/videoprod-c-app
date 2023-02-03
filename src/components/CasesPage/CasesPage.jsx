@@ -39,7 +39,7 @@ const CasesPage = () => {
                     <div className="casePage">
                     {
                         fashion.map((obj) => (
-                           <CaseCard id={obj.id} name={obj.name} title={obj.title} image={obj.image} /> 
+                           <CaseCard id={obj.id} name={obj.name} title={obj.title} image={obj.image} urlName={obj.urlName} /> 
                         ))
                       }
                     </div>

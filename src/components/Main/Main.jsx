@@ -5,6 +5,7 @@ import MainContent from "../MainContent/MainContent";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import CasesPage from "../CasesPage/CasesPage";
+import CasePage from "../CasePage/CasePage";
 
 
 // 1 stage pages
@@ -23,9 +24,10 @@ const Main = () => {
       <div className="screenContent">
         <div className="content">
           
-          <Routes>
+          <Routes >
             <Route path="/" element={<MainContent />} />
             <Route path="/works" element={<CasesPage />} />
+            <Route path="/works/:urlName" element={<CasePage />} />
           </Routes>
         </div>
       </div>
