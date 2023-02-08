@@ -1,7 +1,7 @@
 import React from "react";
 import "./intropage.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Pagination, Autoplay, EffectFlip } from "swiper";
+import {Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -13,7 +13,7 @@ const IntroPage = () => {
     <div className="intro">
       <Swiper
       loop="true"
-      effect="flip"
+      
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -25,7 +25,7 @@ const IntroPage = () => {
           clickable: true,
         }}
         
-        modules={[Autoplay, Pagination, EffectFlip ]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/intro.jpg" alt="" /></div></SwiperSlide>

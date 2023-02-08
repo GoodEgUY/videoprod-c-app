@@ -7,10 +7,12 @@ const CaseCard = (props) => {
   return (
     <>
       <Link key={props.id} to={`/works/${props.urlName}`}>
-        <div className="caseItem">
+        <div className="caseItem"><div className="blackBlock"/>
           <div className="caseImage">
             <img src={props.image} className="coverImg" alt="" />
+            
           </div>
+          
           <p className="caseItemName">{props.name}</p>
           <p className="caseItemTitle">{props.title}</p>
         </div>

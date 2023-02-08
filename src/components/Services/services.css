@@ -4,16 +4,18 @@
    display: flex;
    justify-content: center;
    align-items: center;
-    padding-bottom: 200px; 
+    
 }
 
 .servicesWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
     justify-content: center;
     width: 100vw;
-    height: 350px;
+    height: 600px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
 
 }
 
@@ -24,26 +26,31 @@
     font-size: 28px;
     
     
-    height: 500px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all .4s linear;
 }
 .servicesWrapper>.serviceItem:nth-child(1) {
-    width: 20%;
+    width: 30%;
 }
 .servicesWrapper>.serviceItem:nth-child(2) {
-    width:40%;
+    width:50%;
 }
 .servicesWrapper>.serviceItem:nth-child(3) {
-    width: 15%;
+    width: 20%;
 }
 .serviceItemName:hover {
     transform: scale(0.95);
     
 }
 .serviceItemName {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(39, 53, 65, 0.507);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.616);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.459);
+
+
     backdrop-filter: brightness(60%);
     color: var(--mbg-color);
     
@@ -57,13 +64,14 @@
     background-color: var(--mbg-color) ;
 }
 .serviceItemName p {
+    z-index: 2;
     font-size: 25px;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: brightness(60%);
+    
 }
 .imageService1 {
 
@@ -86,6 +94,7 @@
 }
 
 .serviceItemTitle {
+    
     transform: translateY(-150px);
     opacity: 0;
     width: 90%;
@@ -97,4 +106,13 @@
 .serviceItem:hover .serviceItemTitle {
     opacity: 1;
     transform: translateY(0);
+}
+.blackBlock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    backdrop-filter: brightness(60%);
 }

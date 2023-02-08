@@ -19,8 +19,9 @@
 /* .caseItem:nth-child(4n+2) {
     width: 500px;
 } */
-.caseItem:nth-child(3n) {
+a:nth-child(3n) .caseItem {
     width: 100vw;
+    height: 600px;
 
 }
 
@@ -38,8 +39,9 @@
     filter: blur(0);
 }
 
-.caseItem>.caseImage>img:nth-child(3n) {
+a:nth-child(3n) .caseItem>.caseImage>img {
     object-position: top;
+    object-fit: cover;
 }
 
 /* .caseItem>.caseImage>img:last-child {
@@ -65,7 +67,7 @@
 
 .caseItemName {
     color: var(--mbg-color);
-    z-index: 1;
+    z-index: 2;
     opacity: 1;
     margin-bottom: 0;
     font-size: 30px;
@@ -75,7 +77,7 @@
 
 .caseItemTitle {
     color: var(--mbg-color);
-    z-index: 1;
+    z-index: 2;
     margin: 0;
     opacity: 1;
     font-size: 30px;
