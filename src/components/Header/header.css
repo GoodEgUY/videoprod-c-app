@@ -66,7 +66,7 @@
     font-family: Noah-400;
     display: flex;
     align-items: center;
-    background-color: rgba(228, 228, 228, 0.267);
+    background-color: rgba(228, 228, 228, 0.575);
     transition: all .2s ease-in;
     cursor: pointer;
     margin-right: 30px;
@@ -86,8 +86,107 @@
     background-color: var(--mbg-color);
 
 }
+.burgerHeader {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    
+    display: flex;
+    
+    
+    color: var(--s-color);
+    justify-content: right;
+    transition: all 0.2s linear;
+}
 
 
+.btnBurger {
+    
+    background-color: var(--mbg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    animation: fade .3s forwards;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.btnBurger img {
+    transition: all .2s linear;
+}
+.burgerWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.199);
+    transition: all .4s linear;
+}
+.headerInner {
+    background-color: rgba(240, 248, 255, 0.863);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+    z-index: 4;
+    width: 200px;
+    height: 100vh;
+    animation: Burger .2s forwards;
+    transition: all .2s linear;
+    
+
+    display: flex;
+    justify-content: center;
+}
+
+.headerInner ::backdrop {
+    filter: blur(5px);
+}
+.close {
+    display: none;
+}
+.mobileHeaderNav {
+    display: flex;
+    flex-direction: column;
+}
+.mobileHeaderNavItem {
+    padding: 5px 0 5px 0;
+    border-radius: 25px;
+    border: 1px solid var(--s-color);
+    text-align: center;
+    font-size: 25px;
+    color: var(--s-color);
+    transition: all .2s linear;
+}
+.mobileHeaderNavItem:hover {
+    border-color: var(--third);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.crossBurgerMenu {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.863);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transform: translateX(-20px);
+}
+.crossBurgerMenu img {
+    width: 15px;
+    height: 15px;
+}
 
 @keyframes fade {
     0% {
@@ -106,37 +205,17 @@
     }
 }
 
-@keyframes Train {
-    0% {
-        transform: translateX(-20px);
 
-    }
 
-    50% {
-
-        transform: translateX(165px);
-    }
-
-    100% {
-        transform: translateX(150px);
-
-    }
-}
-
-@keyframes TrainReverse {
+@keyframes Burger {
     0% {
 
-        transform: translateX(150px);
-    }
-
-    50% {
-
-        transform: translateX(165px);
+        transform: translateX(+400px);
     }
 
     100% {
 
-        transform: translateX(-20px);
+        transform: translateX(0);
     }
 }
 

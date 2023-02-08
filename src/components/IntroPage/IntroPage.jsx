@@ -28,9 +28,9 @@ const IntroPage = () => {
         modules={[Autoplay, Pagination ]}
         className="mySwiper"
       >
-        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/gif.gif" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/gif2.gif" alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/gif2.gif" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/g" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/if" alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="introSlide"><img className="introMediaContent" src="./images/gigif" alt="" /></div></SwiperSlide>
         
       </Swiper>
     

@@ -34,7 +34,9 @@ const CasePage = () => {
           <img src={caseInfo.img2} alt="" />
           <img src={caseInfo.img3} alt="" />
         </div>
+        <div className="projectDetails">
         <p className="projectText">{caseInfo.text1}</p>
+        </div>
         <div className="projectBackstageVideo">
         <iframe width="730" height="415" src="https://www.youtube.com/embed/nPhGvW5td9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  web-share" allowfullscreen></iframe>
         </div>
