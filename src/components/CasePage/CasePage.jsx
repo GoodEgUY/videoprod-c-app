@@ -15,7 +15,7 @@ const CasePage = () => {
   };
   return (
     <>
-      <div className="projectContent" onLoad={scrollToTop}>
+      <div className="projectContent" onLoadStart={scrollToTop}>
         <div className="projectIntro">
           <img className="introImage" src={caseInfo.img1} alt="" />
           <div className="projectIntroText">

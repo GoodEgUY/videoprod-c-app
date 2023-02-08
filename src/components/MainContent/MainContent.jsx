@@ -13,13 +13,16 @@ import Team from "../Team/Team";
 
 const MainContent = () => {
   const [modalOpened, setModalOpened] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       {/* Модальне вікно форми */}
       {modalOpened ? (
         <ModalCallback closeModal={() => setModalOpened(false)} />
       ) : null}
-      <div className="mainContent">
+      <div className="mainContent" onLoadStart={scrollToTop}>
         {/* Блок инт */}
         <IntroPage />
         <div className="textAfterIntro">
