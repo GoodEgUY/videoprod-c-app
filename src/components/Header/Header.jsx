@@ -45,7 +45,7 @@ const Header = () => {
                   <img src={crossIcon} alt="" />
                 </div>
                 <NavLink to="/">
-                  <p className="logo">Якесь лого!</p>
+                  <p className="logo">PALAY</p>
                 </NavLink>
                 <NavLink to="/works">
                   <p className="mobileHeaderNavItem">роботи</p>
@@ -60,7 +60,7 @@ const Header = () => {
       ) : (
         <header className="header">
           <NavLink to="/">
-            <p className="logo">Якесь лого!</p>
+            <p className="logo">PALAY</p>
           </NavLink>
           <div className="headerNav">
             <NavLink to="/works">

@@ -24,6 +24,7 @@ const MainContent = () => {
       ) : null}
       <div className="mainContent" onLoadStart={scrollToTop}>
         {/* Блок инт */}
+        
         <IntroPage />
         <div className="textAfterIntro">
           <p>
@@ -34,24 +35,24 @@ const MainContent = () => {
         </div>
         {/* Блок кейсів */}
         <div className="aboutDashboardScreen">
-        <div className="caseCategoryPage">
-          <div className="casePage">
-            {mainCases.map((obj) => (
-              <CaseCard
-                key={obj.id}
-                name={obj.name}
-                title={obj.title}
-                image={obj.image}
-              />
-            ))}
+          <div className="caseCategoryPage">
+            <div className="casePage">
+              {mainCases.map((obj) => (
+                <CaseCard
+                  key={obj.id}
+                  name={obj.name}
+                  title={obj.title}
+                  image={obj.image}
+                />
+              ))}
+            </div>
           </div>
         </div>
-        </div>
-        <CompanySwiper/>
+        <CompanySwiper />
         {/* Блок послуги */}
-        <Services/>
+        <Services />
         {/* Блок команда */}
-              <Team/>
+        <Team />
         {/* Блок контакти */}
         <ContactsPage />
         {/* Кнопка зворотнього зв'язку */}

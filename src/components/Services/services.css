@@ -1,10 +1,9 @@
 .services {
-   height: 100vh;
-   width: 100vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .servicesWrapper {
@@ -16,103 +15,156 @@
     display: flex;
     flex-direction: row;
     align-items: top;
-
 }
 
 .serviceItem {
     padding: 10px;
     flex-direction: column;
-    position: relative;
     font-size: 28px;
-    
-    
-    
+    object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all .4s linear;
 }
+
 .servicesWrapper>.serviceItem:nth-child(1) {
     width: 30%;
 }
+
 .servicesWrapper>.serviceItem:nth-child(2) {
-    width:50%;
+    width: 50%;
 }
+
 .servicesWrapper>.serviceItem:nth-child(3) {
     width: 20%;
 }
-.serviceItemName:hover {
+
+.serviceItem:hover {
     transform: scale(0.95);
-    
+
 }
+
+.serviceItemBody {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: contain;
+}
+
+.serviceItemImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    transition: all .2s ease-out;
+}
+
 .serviceItemName {
+    position: absolute;
+    top: 0;
+    left: 0;
     -webkit-box-shadow: 0px 5px 10px 2px rgba(39, 53, 65, 0.507);
     -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.616);
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.459);
-
-
-    backdrop-filter: brightness(60%);
-    color: var(--mbg-color);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-    z-index: 2;
-    transition: all .2s ease-out;
-    background-color: var(--mbg-color) ;
-}
-.serviceItemName p {
-    z-index: 2;
-    font-size: 25px;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    color: aliceblue;
+    transition: all .2s ease-out;
+    font-size: 25px;
 }
-.imageService1 {
 
-    background-image: url(../../../public/images/services/content1.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.serviceItemName p {
+    margin: 10px;
+    transition: all .2s ease-out;
 }
-.imageService2 {
-    background-image: url(../../../public/images/services/fashion.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.imageService3 {
-    background-image: url(../../../public/images/services/reels.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
+
 
 .serviceItemTitle {
+    display: flex;
+    color: aliceblue;
+    padding: 30px 30px 80px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
     
-    transform: translateY(-150px);
-    opacity: 0;
-    width: 90%;
+    align-items: flex-end;
+    justify-content: center;
+    
+  
+    width: 100%;
+    
     transition: all .3s ease-in-out;
-    height: 150px;
-    z-index: 1;
+    height: 100%;
     font-size: 20px;
 }
-.serviceItem:hover .serviceItemTitle {
+.serviceItemTitle p {
+    transition: all .2s ease-out;
+    opacity: 0;
+    transform: translateY(-150px);
+}
+
+.leftArrow {
+    width: 40px;
+    transition: all .1s ease-in-out;
+    animation: leftArrow 1s infinite;
+    
+    
+}
+.rightArrow {
+    width: 40px;
+    animation: rightArrow 1s infinite;
+    transition: all .1s ease-in-out;
+    
+}
+
+.serviceItem:hover .leftArrow {
+    
+    opacity: 0;
+    
+}
+.serviceItem:hover .rightArrow {
+    opacity: 0;
+}
+
+.serviceItem:hover .serviceItemName p {
+    transform: translateY(-150px);
+}
+
+.serviceItem:hover .serviceItemTitle p {
+    display: flex;
     opacity: 1;
     transform: translateY(0);
 }
-.blackBlock {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    backdrop-filter: brightness(60%);
+
+.serviceItem:hover .serviceItemImage {
+    filter: brightness(30%);
+}
+
+@keyframes leftArrow {
+    0% {
+        transform: translateX(0)rotate(270deg);
+    }
+    70% {
+        transform: translateX(-10px)rotate(270deg);
+    }
+    100%{
+        transform: translateX(0)rotate(270deg);
+    }
+}
+@keyframes rightArrow {
+    0% {
+        transform: translateX(0)rotate(90deg) ;
+    }
+    70% {
+        transform: translateX(10px)rotate(90deg) ;
+    }
+    100%{
+        transform: translateX(0)rotate(90deg);
+    }
 }

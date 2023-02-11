@@ -27,13 +27,18 @@
 .introParag {
     
     animation: fade 1.3s ease-in-out forwards;
-    color: var(--s-color);
+    color: var(--mbg-color);
     font-size: 60px;
 }
 .introSlide {
     object-fit: cover;
     height: 100vh;
 width: 100vw;
+}
+.introVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 .swiper
 

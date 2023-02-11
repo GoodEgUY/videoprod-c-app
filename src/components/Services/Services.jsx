@@ -36,69 +36,97 @@ const Services = () => {
       ) : null}
       <div className="services">
         <div className="servicesWrapper">
-          <div className="serviceItem" >
-            <div className="serviceItemName imageService1" onClick={openFormServices1}>
-              <div className="blackBlock"/>
-              <p>ЗЙОМКА КОНТЕНТУ</p>
-            </div>
-            <div className="serviceItemTitle">
-              <p>
-                Для бізнесів.
-                <br />
-                Від кафешки і одягу до косметолога і блога на ютуб. Може:
-                <br />
-                - розповісти про продукт/послуги
-                <br />
-                - перелічити асортимент
-                <br />
-                - наповнити соц.мережі
-                <br />
-                - розповісти про новинки… і про що завгодно))
-                <br />
-                <br />
-                Тикай, бо вам таке треба:)
-              </p>
-            </div>
-          </div>
-          <div className="serviceItem" >
-            <div className="serviceItemName imageService2"onClick={openFormServices2}>
-            <div className="blackBlock"/>
-              <p>ІМІДЖЕВА РЕКЛАМА</p>
-            </div>
-            <div className="serviceItemTitle">
-              <p>
-                Для малих і середніх бізнесів (а можна й великих), які про свій
-                концепт, місію та особливість.
-                <br />
-                <br />
-                Не продасть все і одразу.
-                <br />
-                Але зробить так, щоб клієнт вас запам'ятав, друзям розказав і
-                хотів купувати через рік.
-                <br />
-                <br />
-                Тикай, бо вам таке треба:)
-              </p>
+          <div className="serviceItem">
+            <div className="serviceItemBody">
+              
+              <img
+                className="serviceItemImage"
+                src="/images/services/content1.png"
+                alt=""
+              />
+              <div className="serviceItemName">
+                <img src="/images/arrow.png" alt="" className="leftArrow" />
+                <p>ЗЙОМКА КОНТЕНТУ</p>
+
+                <img src="/images/arrow.png" alt="" className="rightArrow" />
+              </div>
+              <div className="serviceItemTitle">
+                <p>
+                  Для бізнесів.
+                  <br />
+                  Від кафешки і одягу до косметолога і блога на ютуб. Може:
+                  <br />
+                  - розповісти про продукт/послуги
+                  <br />
+                  - перелічити асортимент
+                  <br />
+                  - наповнити соц.мережі
+                  <br />
+                  - розповісти про новинки… і про що завгодно))
+                  <br />
+                  <br />
+                  Тикай, бо вам таке треба:)
+                </p>
+              </div>
             </div>
           </div>
-          <div className="serviceItem" >
-            <div className="serviceItemName imageService3"onClick={openFormServices3}>
-            <div className="blackBlock"/>
-              <p>ЗЙОМКА РІЛЗ</p>
+          <div className="serviceItem">
+            <div className="serviceItemBody">
+              <img
+                className="serviceItemImage"
+                src="/images/services/fashion.png"
+                alt=""
+              />
+              <div className="serviceItemName">
+              <img src="/images/arrow.png" alt="" className="leftArrow" />
+                <p>ЗЙОМКА КОНТЕНТУ</p>
+
+                <img src="/images/arrow.png" alt="" className="rightArrow" />
+              </div>
+              <div className="serviceItemTitle">
+                <p>
+                  Для малих і середніх бізнесів (а можна й великих), які про
+                  свій концепт, місію та особливість.
+                  <br />
+                  Не продасть все і одразу. Але зробить так, щоб клієнт вас
+                  запам'ятав, друзям розказав і хотів купувати через рік.
+                  <br />
+                  <br />
+                  Тикай, бо вам таке треба:)
+                </p>
+              </div>
             </div>
-            <div className="serviceItemTitle">
-              <p>
-                Для всіх, хто продає через Інстаграм. І хоче мати контент, щоб
-                було цікаво і хотілось. <br />
-                <br />
-                Це мастхев. <br />
-                Ми робимо його під задачу: <br />
-                з трендовою музикою/ у вигляді інтерв’юшок/ як огляди/ чи просто
-                під рубрики. І воно працює.
-                <br />
-                <br />
-                Тикай, бо вам таке треба:)
-              </p>
+          </div>
+          <div className="serviceItem">
+            <div className="serviceItemBody">
+              <img
+                className="serviceItemImage"
+                src="/images/services/reels.jpg"
+                alt=""
+              />
+              <div className="serviceItemName">
+              <img src="/images/arrow.png" alt="" className="leftArrow" />
+                <p>ЗЙОМКА КОНТЕНТУ</p>
+
+                <img src="/images/arrow.png" alt="" className="rightArrow" />
+              </div>
+              <div className="serviceItemTitle">
+                <p>
+                  Для всіх, хто продає через Інстаграм.
+                  <br />
+                  І хоче мати контент, щоб було цікаво і хотілось. <br />
+                  <br />
+                  Це мастхев. <br />
+                  Ми робимо його під задачу: <br />
+                  з трендовою музикою/ у вигляді інтерв’юшок/ як огляди/ чи
+                  просто під рубрики.
+                  <br />
+                  І воно працює.
+                  <br />
+                  <br />
+                  Тикай, бо вам таке треба:)
+                </p>
+              </div>
             </div>
           </div>
         </div>
