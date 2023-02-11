@@ -36,7 +36,7 @@ const Services = () => {
       ) : null}
       <div className="services">
         <div className="servicesWrapper">
-          <div className="serviceItem">
+          <div className="serviceItem" onClick={openFormServices1}>
             <div className="serviceItemBody">
               
               <img
@@ -70,7 +70,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="serviceItem">
+          <div className="serviceItem" onClick={openFormServices2}>
             <div className="serviceItemBody">
               <img
                 className="serviceItemImage"
@@ -97,7 +97,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="serviceItem">
+          <div className="serviceItem" onClick={openFormServices3}>
             <div className="serviceItemBody">
               <img
                 className="serviceItemImage"
