@@ -1,15 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import "./maincontent.css";
-
 import ModalCallback from "../ModalCallback/ModalCallback";
 import IntroPage from "../IntroPage/IntroPage";
-import mainCases from "../../assests/config.routes/casesBase/mainCases.json";
 import ContactsPage from "../ContactsPage/ContactsPage";
-import CaseCard from "../CasesPage/CaseCard/CaseCard";
 import Services from "../Services/Services";
 import CompanySwiper from "../CompanySwiper/CompanySwiper";
 import Team from "../Team/Team";
+import MainCases from "../MainCases/MainCases";
 
 const MainContent = () => {
   const [modalOpened, setModalOpened] = useState(false);
@@ -34,20 +32,8 @@ const MainContent = () => {
           </p>
         </div>
         {/* Блок кейсів */}
-        <div className="aboutDashboardScreen">
-          <div className="caseCategoryPage">
-            <div className="casePage">
-              {mainCases.map((obj) => (
-                <CaseCard
-                  key={obj.id}
-                  name={obj.name}
-                  title={obj.title}
-                  image={obj.image}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
+        <MainCases/>
+        {/* Блок Компаній */}
         <CompanySwiper />
         {/* Блок послуги */}
         <Services />
