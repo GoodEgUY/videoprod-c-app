@@ -79,7 +79,7 @@ const Services = () => {
               />
               <div className="serviceItemName">
               <img src="/images/arrow.png" alt="" className="leftArrow" />
-                <p>ЗЙОМКА КОНТЕНТУ</p>
+                <p>ІМІДЖЕВА РЕКЛАМА</p>
 
                 <img src="/images/arrow.png" alt="" className="rightArrow" />
               </div>
@@ -106,7 +106,7 @@ const Services = () => {
               />
               <div className="serviceItemName">
               <img src="/images/arrow.png" alt="" className="leftArrow" />
-                <p>ЗЙОМКА КОНТЕНТУ</p>
+                <p>ЗЙОМКА РІЛЗ</p>
 
                 <img src="/images/arrow.png" alt="" className="rightArrow" />
               </div>
