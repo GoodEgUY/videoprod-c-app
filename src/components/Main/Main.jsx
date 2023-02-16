@@ -6,7 +6,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 
-import { Suspense } from "react";
+import { Suspense} from "react";
 import Loader from "../Loader/Loader";
 
 
