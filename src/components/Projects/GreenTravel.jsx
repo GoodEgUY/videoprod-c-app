@@ -72,10 +72,9 @@ const GreenTravel = () => {
             3 крутезних іміджевих ролики з купою адаптацій.{" "}
           </p>
           <h2>
-              <b>ТОП-5 рандомних фактів з проєкту “Грінтеревел”</b>
-            </h2>
+            <b>ТОП-5 рандомних фактів з проєкту “Грінтеревел”</b>
+          </h2>
           <p>
-            
             <br />- з київськими технарями працювати в кайф
             <br />- рибки мають приїзджати на зйомку першими, щоб не
             адаптуватись
@@ -87,7 +86,9 @@ const GreenTravel = () => {
           </p>
         </div>
         <div className="projectBackstageVideo">
-        <p className="projectText"><b>Відео з беку</b></p>
+          <p className="projectText">
+            <b>Відео з беку</b>
+          </p>
           <iframe
             width="1030"
             height="515"
@@ -98,9 +99,18 @@ const GreenTravel = () => {
             allowfullscreen
           ></iframe>
         </div>
+        <div className="projectDetails">
+          <p className="projectText">
+            Мораль цього проєкту: Якщо ви страхова — не обов'язково треба
+            знімати, як ви підписуєте папірці чи працюєте з серйозним обличчям.
+            Можна зробити щось неочікуване, цікаве і потрапити в саме
+            серденько:)
+          </p>
+        </div>
         <div className="projectCredits">
           <p className="projectCreditsText">
-            Продакшн — PALAY <img src="/images/fire.gif" width={40} alt="" /><br /> Клієнт — Green Travel
+            Продакшн — PALAY <img src="/images/fire.gif" width={40} alt="" />
+            <br /> Клієнт — Green Travel
             <br /> Ідея — Аrriba!
             <br /> Режисерка — Лада Сабова
             <br /> Продюсерка — Еветта Лукаш
