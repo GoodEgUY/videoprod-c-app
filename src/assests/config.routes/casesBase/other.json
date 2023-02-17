@@ -1,39 +1,52 @@
 [
     {
+      "urlName":"rescuenow",
       "id" : "0",
       "name": "RESCUE NOW.",
       "title": "Kharkiv is staying alive.",
       "image": "./images/cases/other/rescuenow.png"
     },
     {
+      "urlName":"maxnewell",
       "id" : "1",
       "name": "MAX NEWELL. ",
       "title": "Flow. ",
       "image": "./images/cases/other/maxnew.png"
     },
     {
+      "urlName":"kuli",
       "id" : "2",
       "name": "KULI.",
       "title": "Перша столиця.",
       "image": "./images/cases/other/kuli.png"
     },
     {
+      "urlName":"polus",
       "id" : "3",
       "name": "POLUS.",
       "title": "Анімація для легендарного харківського батончика.",
       "image": "./images/cases/other/polus.png"
     },
     {
+      "urlName":"ukraniandefenders",
       "id" : "4",
       "name": "#ВДЯЧНІЗСУ.",
       "title": "До дня Збройних сил України. ",
       "image": "./images/cases/other/vsu.png"
     },
     {
+      "urlName":"etonika",
       "id" : "5",
       "name": "ETONIKA.",
       "title": "Big city lights DJ Mix.",
       "image": "./images/cases/other/nikaset.jpg"
+    },
+    {
+      "urlName":"ramina",
+      "id" : "6",
+      "name": "Ходят слухи. ",
+      "title": "Випуск про Лиман.",
+      "image": "./images/cases/other/ramina.jpg"
     }
     
   ]

@@ -110,14 +110,17 @@ const ModalCallback = (props) => {
                   value={clientText}
                   onChange={(event) => setClientText(event.target.value)}
                 />
+                <p className="mb-5">АБО</p>
+                <div className="modalContacts">
+                  
+                  <a href="https://t.me/Eva_Video_for_ua"><div className="modalNavItem"><img width={30} src="/images/telegLogo.png" alt="" /><p>TELEGRAM</p></div></a>
+                  <a href="tel:+380676091891"><div className="modalNavItem"><img width={40} src="/images/phoneLogo.png" alt="" /><p>ЗАТЕЛЕФОНУВАТИ</p></div></a>
+                </div>
                 <button className="callbackModalBtn" type="submit">
                   ОТПРАВИТЬ
                 </button>
               </form>
-              <span className="policyTitle">
-                Нажимая кнопку «Отправить», Вы соглашаетесь с<br />
-                <p>политикой конфиденциальности</p>
-              </span>
+              
             </div>
           </div>
         </div>

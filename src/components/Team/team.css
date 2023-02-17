@@ -16,13 +16,23 @@
 }
 
 .teamItem {
+    border-radius: 10px;
+    position: relative;
     margin: 0 auto;
     width: 250px;
     height: 450px;
     background-color: var(--s-color);
     border-radius: 20px;
 }
-
+.teamItem img {
+    border-radius: 10px;
+}
 .block3 {
     width: 80%;
+}
+.teamateName {
+    color: aliceblue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }

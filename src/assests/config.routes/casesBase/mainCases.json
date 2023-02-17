@@ -1,35 +1,41 @@
 [
     {
+        "urlName":"easypeasy",
         "id": "0",
         "name": "EASY-PEASY.",
         "title": "Це тупо просто.",
         "image": "./images/cases/fashion/easy.png"
     },
     {
+        "urlName":"1654",
         "id": "1",
         "name": "1654.",
         "title": "Великдень у великому місті!",
         "image": "./images/cases/content/1654.png"
     },
     {
+        "urlName":"greentravel",
         "id": "2",
         "name": "GREEN TRAVEL.",
         "title": "Клік і готово!",
         "image": "./images/cases/fashion/gt.png"
     },
     {
+        "urlName":"hvylyasti",
         "id": "3",
         "name": "HVYLYASTI. ",
         "title": "Reels і купа гріночок.",
         "image": "./images/cases/reels/hvilyasti.png"
     },
     {
+        "urlName":"macpaw",
         "id": "4",
         "name": "MACPAW",
         "title": "#DiakuYOU.",
         "image": "./images/cases/fashion/macpaw.png"
     },
     {
+        "urlName":"farmerhood",
         "id": "5",
         "name": "FARMERHOOD.",
         "title": "Від фермерів фермерам.",

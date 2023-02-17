@@ -223,3 +223,29 @@
 .navLinkModal:hover::after {
     transform: scale(1);
 }
+.modalContacts {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.modalNavItem {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.mb-5 {
+    margin-bottom: 5px!important;
+}
+.modalNavItem img {
+    margin-right: 5px;
+}
+.modalNavItem p {
+    font-size: 15px!important;
+    margin: 0!important;
+}

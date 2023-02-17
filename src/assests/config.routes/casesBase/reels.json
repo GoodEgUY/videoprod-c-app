@@ -1,23 +1,27 @@
 [
   {
+    "urlName":"hvylyasti",
     "id" : "0",
     "name": "HVYLYASTI. ",
     "title": "Reels і купа гріночок.",
     "image": "./images/cases/reels/hvilyasti.png"
   },
   {
+    "urlName":"xafood",
     "id" : "1",
     "name": "XAFOOD.",
     "title": "Харківським від харківських.",
     "image": "./images/cases/reels/xafood.png"
   },
   {
+    "urlName":"lasertime",
     "id" : "2",
     "name": "LASERTIME.",
     "title": "Коли все Рівне!",
-    "image": ""
+    "image": "./images/cases/reels/lasertime.png"
   },
   {
+    "urlName":"domo",
     "id" : "3",
     "name": "ДОМО.",
     "title": "Тепер рілз?)",

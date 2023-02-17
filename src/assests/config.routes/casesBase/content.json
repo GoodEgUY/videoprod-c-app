@@ -1,53 +1,62 @@
 [
     {
+      "urlName":"underpillow",
       "id" : "0",
       "name": "UNDERPILLOW.",
       "title": "Зона твого комфорту. ",
       "image": "./images/cases/content/underpillow.png"
     },
     {
+      "urlName":"yaposhka2",
       "id" : "1",
       "name": "YAPOSHKA 2.0.",
       "title": "Роли і салатики.  ",
       "image": "./images/cases/content/yaposhka2.png"
     },
     {
+      "urlName":"kittwhale",
       "id" : "2",
       "name": "KITT WHALE GROUP.",
       "title": "Food porn.",
       "image": "./images/cases/content/kitwhalegroup.png"
     },
     {
+      "urlName":"1654",
       "id" : "3",
       "name": "1654.",
       "title": "Великдень у великому місті!",
       "image": "./images/cases/content/1654.png"
     },
     {
+      "urlName":"dublicator",
       "id" : "4",
       "name": "DUBLIKATOR.",
       "title": "Не клонуємо, а програмуємо. ",
       "image": "./images/cases/content/dublicator.png"
     },
     {
+      "urlName":"bodycontrol",
       "id" : "5",
       "name": "BODY CONTROL. ",
       "title": "Корекція на все. ",
       "image": "./images/cases/content/bodycontrol.png"
     },
     {
+      "urlName":"sneakermate",
       "id" : "6",
       "name": "SNEAKERMATE. ",
       "title": "Сімейна мануфактура.",
-      "image": ""
+      "image": "./images/cases/content/sneakermate.png"
     },
     {
+      "urlName":"ramina",
       "id" : "7",
-      "name": "Раміна. “Ходят слухи”",
-      "title": "Відрядження едішн.",
-      "image": ""
+      "name": "Ходят слухи.",
+      "title": "Випуск про Лиман.",
+      "image": "./images/cases/content/ramina.png"
     },
     {
+      "urlName":"madewithsoul",
       "id" : "8",
       "name": "Фіделіт з ютубу.",
       "title": "Роблять з душею. ",

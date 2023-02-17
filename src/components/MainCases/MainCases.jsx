@@ -20,6 +20,7 @@ const MainCases = () => {
                   name={obj.name}
                   title={obj.title}
                   image={obj.image}
+                  urlName={obj.urlName}
                 />
               ))}
             </div>
