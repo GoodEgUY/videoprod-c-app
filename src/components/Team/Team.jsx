@@ -1,21 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "./team.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Team = () => {
+  const[slides,setSlides] = useState(false)
+  const slidesPerView = () => {
+    if (window.innerWidth < 550) {
+   setSlides(true)
+ } else {
+   setSlides(false)
+ }
+ }
+
   return (
-    <div className="blockTeam">
+    <div className="blockTeam" onLoad={slidesPerView}>
+      <h2>Наша команда</h2>
       <div className="block3">
         <Swiper
-          modules={[Navigation]}
+          modules={[Autoplay]}
           spaceBetween={10}
-          slidesPerView={3}
-          navigation
+          slidesPerView={slides? 1:3}
+          autoplay={{
+            delay: 2000,
+            
+          }}
           loop
         >
           <SwiperSlide>

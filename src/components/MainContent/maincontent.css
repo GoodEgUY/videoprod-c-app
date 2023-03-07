@@ -24,3 +24,29 @@ p {
 .textAfterIntro p {
    font-family: Noah-400; 
 }
+.callback_button {
+    animation: Burger .6s forwards;
+}
+@keyframes Burger {
+    0% {
+
+        transform: translateX(+400px);
+    }
+
+    100% {
+
+        transform: translateX(0);
+    }
+}
+@media (max-device-width: 550px) {
+   .mainContent {
+    overflow-y: hidden;
+   
+   }
+   .callback_button {
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 15px;
+   }
+    
+}

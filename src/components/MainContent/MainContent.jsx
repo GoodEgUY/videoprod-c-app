@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./maincontent.css";
 import ModalCallback from "../ModalCallback/ModalCallback";
 import IntroPage from "../IntroPage/IntroPage";
@@ -11,9 +11,20 @@ import MainCases from "../MainCases/MainCases";
 
 const MainContent = () => {
   const [modalOpened, setModalOpened] = useState(false);
+  const [scrolled, setScrolled] = useState(false)
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+  const showItems = () => {
+    if (window.scrollY > window.innerHeight) {
+      setScrolled(true)
+    } else {
+      setScrolled(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", showItems);
+  }, []);
   return (
     <>
       {/* Модальне вікно форми */}
@@ -43,7 +54,7 @@ const MainContent = () => {
         <ContactsPage />
         {/* Кнопка зворотнього зв'язку */}
         <button
-          className="openModal callback_button"
+          className={scrolled? "openModal callback_button": "close"}
           onClick={() => {
             setModalOpened(true);
           }}

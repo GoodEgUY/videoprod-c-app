@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./companyswiper.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
@@ -9,13 +9,22 @@ import "swiper/css/scrollbar";
 import brends from "../../assests/config.routes/brends/brends.json"
 
 const CompanySwiper = () => {
+  const [slides, setSlides] = useState(false)
+  const slidesPerView = () => {
+     if (window.innerWidth < 550) {
+    setSlides(true)
+  } else {
+    setSlides(false)
+  }
+  }
+ 
   return (
-    <div className="companySwiper">
+    <div className="companySwiper" onLoad={slidesPerView}>
       <Swiper
         modules={[Navigation]}
         spaceBetween={3}
-        slidesPerView={7}
-        navigation
+        slidesPerView={slides? 3:7}
+        
         className="company"
         loop={"true"}
       >

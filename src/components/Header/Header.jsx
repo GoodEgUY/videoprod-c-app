@@ -5,14 +5,20 @@ import { NavLink } from "react-router-dom";
 import burgerIcon from "./burgerIcon.png";
 import crossIcon from "./crossIcon.png";
 const Header = () => {
-  const [back, setBack] = useState(false);
+  const [back, setBack] = useState();
   const [isOpen, setIsOpen] = useState(false);
   const scrollCheck = () => {
-    if (window.scrollY > 150) {
+    if (window.innerWidth < 550) {
       setBack(true);
+      console.log("Phone")
     } else {
-      setBack(false);
-      setIsOpen(false);
+      if (window.scrollY > 150) {
+        
+        setBack(true);
+      } else {
+        setBack(false);
+        setIsOpen(false);
+      }
     }
   };
 
@@ -35,7 +41,10 @@ const Header = () => {
               height={40}
             />
           </div>
-          <div className={isOpen ? "burgerWrapper" : "close"} onClick={() => setIsOpen(!isOpen)}>
+          <div
+            className={isOpen ? "burgerWrapper" : "close"}
+            onClick={() => setIsOpen(!isOpen)}
+          >
             <div className={isOpen ? "headerInner" : "close"}>
               <div className="mobileHeaderNav backHeader">
                 <div

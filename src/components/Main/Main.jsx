@@ -24,7 +24,7 @@ const Main = () => {
   const CasePage = React.lazy(() => import("../CasePage/CasePage"))
   
   return (
-
+    
     <>
 <BrowserRouter>
 
@@ -40,7 +40,7 @@ const Main = () => {
           </Routes>
         </div>
       </div>
-      <Footer/>
+      
       </BrowserRouter>
     </>
   );

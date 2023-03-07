@@ -16,7 +16,7 @@ const CasesPage = () => {
 
   return (
     
-      <div className="cases" onLoad={scrollToTop}>
+      <div className="cases" >
         <Tabs>
           <div className="aboutDashboard">
             <div className="aboutDashboardNav">

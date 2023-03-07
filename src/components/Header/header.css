@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     margin: 0 auto;
-    width: 1170px;
+    
     display: flex;
     width: 100vw;
     color: var(--s-color);
@@ -226,3 +226,16 @@
 }
 
 @keyframes header {}
+
+@media (max-device-width: 550px) {
+    .btnBurger {
+        top: 15px;
+        right: 15px;
+    }
+    .burgerHeader {
+        width: 100vw;
+    }
+    .header {
+        display: none;
+    }
+}

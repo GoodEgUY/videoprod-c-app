@@ -29,4 +29,9 @@
   object-fit: contain;
 }
 
-
+@media (max-device-width: 550px) {
+  .companySwiper {
+    width: 90vw;
+  }
+  
+}

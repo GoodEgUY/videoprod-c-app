@@ -168,3 +168,29 @@
         transform: translateX(0)rotate(90deg);
     }
 }
+@media (max-device-width: 550px) {
+    .services {
+        height: auto;
+    }
+    .servicesWrapper {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .serviceItem {
+        height: 300px;
+        width: 100vw!important;
+    }
+    .serviceItemName p {
+        margin: 10px;
+        font-size: 18px;
+        transition: all .2s ease-out;
+    }
+    .leftArrow {
+       
+        width: 20px;
+        
+    }
+    .rightArrow {
+        width: 20px;
+    }
+}

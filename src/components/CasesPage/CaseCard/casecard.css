@@ -9,7 +9,7 @@
     align-items: flex-start;
     padding: 30px;
 
-    width: 50vw;
+    width: ;
     height: 475px;
     background-color: grey;
     transition: all 0.2s ease-in;
@@ -112,3 +112,14 @@ a:nth-child(3n) .caseItem>.caseImage>img {
     height: 100%;
     transition: all .3s linear;
 }
+@media (max-device-width: 550px) {
+    .caseItem {
+        height: 300px;
+width: 100vw;
+    }
+    a:nth-child(3n) .caseItem {
+        width: 100vw;
+        height: 300px;
+    
+    }
+ }

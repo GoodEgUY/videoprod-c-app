@@ -47,3 +47,16 @@
 .footerNavItem:hover {
     color: rgb(107, 107, 107);
 }
+@media (max-device-width: 550px) {
+    .contacts {
+        text-align: center;
+        font-size: 20px;
+    }
+    .footerNav {
+        font-size: 30px;
+    }
+    .postButton {
+        font-size: 40px;
+        height: 90px;
+    }
+}
