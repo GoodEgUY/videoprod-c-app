@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route } from "react-router-dom";
 import "./main.css";
 
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+
 
 
 import { Suspense} from "react";
