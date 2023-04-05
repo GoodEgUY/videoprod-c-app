@@ -2,7 +2,7 @@
     padding-top: 100px;
     overflow: hidden;
     width: 100vw;
-    border-bottom: 1px solid white;
+    background-color: black;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -47,6 +47,7 @@
     justify-content: center;
     color: var(--s-color);
     font-size: 60px;
+    background-color: black;
 }
 
 
@@ -120,3 +121,6 @@
 
 
 }
+
+/* LOader */
+

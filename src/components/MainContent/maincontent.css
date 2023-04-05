@@ -3,7 +3,7 @@ p {
 }
 
 .mainContent {
-    background-color: var(--mbg-color);
+    background-color: black;
     overflow-x: hidden;
     z-index: 1;
     flex-direction: column;
@@ -16,11 +16,12 @@ p {
 .textAfterIntro {
     padding-bottom: 50px;
     padding-top: 50px;
-    font-size: 28px;
-    font-family: Noah-400;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
     text-align: center;
-    max-width: 800px;
+    max-width: 1170px;
+    color: white;
 }
 .textAfterIntro p {
-   font-family: Noah-400; 
+    font-family: 'Work Sans', sans-serif; 
 }

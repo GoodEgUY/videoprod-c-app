@@ -16,7 +16,8 @@ const CasesPage = () => {
 
   return (
     
-      <div className="cases" onLoad={scrollToTop}>
+      <div className="cases" >
+        
         <Tabs>
           <div className="aboutDashboard">
             <div className="aboutDashboardNav">
@@ -64,6 +65,7 @@ const CasesPage = () => {
                         name={obj.name}
                         title={obj.title}
                         image={obj.image}
+                        urlName={obj.urlName}
                       />
                     ))}
                   </div>
@@ -81,6 +83,7 @@ const CasesPage = () => {
                         name={obj.name}
                         title={obj.title}
                         image={obj.image}
+                        urlName={obj.urlName}
                       />
                     ))}
                   </div>
@@ -98,6 +101,7 @@ const CasesPage = () => {
                         name={obj.name}
                         title={obj.title}
                         image={obj.image}
+                        urlName={obj.urlName}
                       />
                     ))}
                   </div>

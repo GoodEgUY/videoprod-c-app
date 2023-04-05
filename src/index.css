@@ -1,24 +1,18 @@
-@font-face {
-  font-family: Noah-400;
-  src: url(../public/fonts/NoahGrotesque-Regular.ttf);
-}
 
-@font-face {
-  font-family: Noah-700;
-  src: url(../public/fonts/NoahGrotesque-Bold.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Work+Sans:wght@500&display=swap');
+
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-track {
   
-  background-color: rgb(214, 214, 214);
+  background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
   
-  background-color: var(--third) ;
+  background-color: var(--color-two) ;
   border-radius: 10px;
 }
 
@@ -26,6 +20,9 @@
   --mbg-color : #f5f7fd;
   --s-color : #252428;
   --third : #bddf60;
+  --color-main: #753BBD;
+  --color-two:#E56A54;
+
   box-sizing: border-box;
 }
 a:-webkit-any-link {
@@ -49,7 +46,7 @@ code {
 }
 input {
     
-  font-family: Noah-400;
+  font-family: Work-Sans;
   padding: 15px;
   font-size: 18px;
   border-radius: 5px;
@@ -69,7 +66,7 @@ input:focus {
 textarea {
   width: 280px;
   resize: none;
-  font-family: Noah-400;
+  font-family: Work-Sans;
   padding: 15px;
   font-size: 18px;
   border-radius: 5px;

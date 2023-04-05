@@ -30,9 +30,35 @@
 .block3 {
     width: 80%;
 }
-.teamateName {
-    color: aliceblue;
+.teamateTitleWrapper {
+    height: 70px;
+    padding: 0 10px 0 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    bottom: 10px;
+    border-bottom: 1px solid white;
+    left: 10px;
+}
+.teamWho {
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.teamateName {
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid white;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+.swiper-button-prev ,.swiper-button-next {
+    color: var(--color-two);
 }

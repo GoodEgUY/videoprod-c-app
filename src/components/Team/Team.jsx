@@ -21,31 +21,33 @@ const Team = () => {
           <SwiperSlide>
             <div className="teamItem">
               <img src="/images/team/yaroslav.gif" alt="" />
-              <p className="teamateName">YAROSLAV LUKASH</p>
+              <div className="teamateTitleWrapper"><p className="teamWho">Who is</p><p className="teamateName">YAROSLAV LUKASH</p></div>
+
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="teamItem">
               <img src="/images/team/eva.gif" alt="" />
-              <p className="teamateName">EVA LUKASH</p>
+              <div className="teamateTitleWrapper"><p className="teamWho">Who is</p><p className="teamateName">EVA LUKASH</p></div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="teamItem">
               <img src="/images/team/misha.gif" alt="" />
-              <p className="teamateName">MISHA VLASENKO</p>
+              <div className="teamateTitleWrapper"><p className="teamWho">Who is</p><p className="teamateName">MISHA VLASENKO</p></div>
+              
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="teamItem">
               <img src="/images/team/dasha.gif" alt="" />
-              <p className="teamateName">DASHA LUKASH</p>
+              <div className="teamateTitleWrapper"><p className="teamWho">Who is</p><p className="teamateName">DASHA LUKASH</p></div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="teamItem">
               <img src="/images/team/vadim.gif" alt="" />
-              <p className="teamateName">VADIM</p>
+              <div className="teamateTitleWrapper"><p className="teamWho">Who is</p><p className="teamateName">VADIM</p></div>
             </div>
           </SwiperSlide>
         </Swiper>

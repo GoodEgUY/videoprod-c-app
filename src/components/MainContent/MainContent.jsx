@@ -5,7 +5,7 @@ import ModalCallback from "../ModalCallback/ModalCallback";
 import IntroPage from "../IntroPage/IntroPage";
 import ContactsPage from "../ContactsPage/ContactsPage";
 import Services from "../Services/Services";
-import CompanySwiper from "../CompanySwiper/CompanySwiper";
+
 import Team from "../Team/Team";
 import MainCases from "../MainCases/MainCases";
 
@@ -34,7 +34,7 @@ const MainContent = () => {
         {/* Блок кейсів */}
         <MainCases/>
         {/* Блок Компаній */}
-        <CompanySwiper />
+        {/* <CompanySwiper /> */}
         {/* Блок послуги */}
         <Services />
         {/* Блок команда */}

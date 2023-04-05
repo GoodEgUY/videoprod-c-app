@@ -2,16 +2,16 @@
     cursor: pointer;
 
     position: relative;
-    object-fit: cover;
+    
     display: flex;
-    justify-content: flex-end;
+    
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px;
+    padding: 20px;
 
     width: 50vw;
-    height: 475px;
-    background-color: grey;
+    height: 600px;
+    background-color: black;
     transition: all 0.2s ease-in;
 
 }
@@ -29,10 +29,7 @@ a:nth-child(3n) .caseItem {
     width: 100vw;
     
 } */
-.caseItem:hover {
-    transform: scale(0.98);
-    filter: blur(0px);
-}
+
 
 
 .caseItem:hover .caseImage img {
@@ -53,25 +50,17 @@ a:nth-child(3n) .caseItem>.caseImage>img {
 
 }
 
-.caseItem:hover .caseItemName {
-    opacity: 1;
-    font-size: 60px;
 
 
-}
-
-.caseItem:hover .caseItemTitle {
-    opacity: 1;
-    animation: fade 0.2s linear;
-}
 
 .caseItemName {
     color: var(--mbg-color);
     z-index: 2;
     opacity: 1;
-    margin-bottom: 0;
-    font-size: 30px;
+    margin: 0;
+    font-size: 60px;
     transition: all 0.2s ease-in;
+    font-family: 'Caveat', cursive;
 
 }
 
@@ -81,11 +70,13 @@ a:nth-child(3n) .caseItem>.caseImage>img {
     margin: 0;
     opacity: 1;
     font-size: 30px;
-    font-family: Noah-400;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .coverImg {
     object-fit: cover;
+    width: 100%;
+    
 }
 
 .heightItemBox {
@@ -101,14 +92,35 @@ a:nth-child(3n) .caseItem>.caseImage>img {
 
 }
 
-.caseImage img {
-    
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    left: 0;
+.caseImage {
+    overflow: hidden;
     width: 100%;
+    
+    
+}
+.caseItemBottom {
+    height: 90px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex: 1 0 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.caseItemNameBlock {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid white;
+    align-items: center;
     height: 100%;
-    transition: all .3s linear;
+}
+.caseItemTitleBlock {
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: left;
+    
 }

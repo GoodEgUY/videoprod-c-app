@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .servicesWrapper {
@@ -81,11 +82,13 @@
 .serviceItemName p {
     margin: 10px;
     transition: all .2s ease-out;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
 
 .serviceItemTitle {
+    
     display: flex;
     color: aliceblue;
     padding: 30px 30px 80px 30px;
@@ -107,6 +110,7 @@
     transition: all .2s ease-out;
     opacity: 0;
     transform: translateY(-150px);
+    font-family: 'Work Sans', sans-serif;
 }
 
 .leftArrow {

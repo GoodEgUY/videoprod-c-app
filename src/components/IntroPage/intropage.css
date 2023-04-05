@@ -4,7 +4,7 @@
     position: relative;
     width: 100vw;
     height: 101vh;
-    /* background-image: url(../../../public/images/test.png) ; */
+    font-family: 'Work Sans', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -21,14 +21,14 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    
+    font-family: 'Work Sans', sans-serif;
 }
 
 .introParag {
-    
+    font-family: 'Work Sans', sans-serif;
     animation: fade 1.3s ease-in-out forwards;
     color: var(--mbg-color);
-    font-size: 60px;
+    font-size: 200px;
 }
 .introSlide {
     object-fit: cover;
